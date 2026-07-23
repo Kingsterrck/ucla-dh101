@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:#f6f4ef;color:#1d1b17;font-family:'Spectral',Georgia,serif;-webkit-font-smoothing:antialiased}
+  a{color:oklch(0.45 0.12 260);text-decoration:none}
+  a:hover{color:oklch(0.38 0.13 260)}
+  ::selection{background:oklch(0.45 0.12 260 / 0.22)}
+</style>
+</helmet>
+
+<div style="min-height:100vh;display:flex;flex-direction:column">
+
+  <header style="position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:15px 44px;background:rgba(246,244,239,0.86);backdrop-filter:blur(10px);border-bottom:1px solid rgba(29,27,23,0.12)">
+    <a href="index.html" style="display:flex;align-items:baseline;gap:11px">
+      <span style="font:600 16px/1 'Spectral',serif;color:#1d1b17;letter-spacing:0.01em">County Lines</span>
+      <span style="font:500 9.5px/1 'IBM Plex Mono',monospace;color:oklch(0.45 0.12 260);text-transform:uppercase;letter-spacing:0.16em">COVID · California</span>
+    </a>
+    <nav style="display:flex;gap:2px;align-items:center">
+      <a href="index.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:oklch(0.45 0.12 260);padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">Home</a>
+      <a href="narrative.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:#4a453d;padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">Narrative</a>
+      <a href="data-critique.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:#4a453d;padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">Data Critique</a>
+      <a href="bibliography.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:#4a453d;padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">Bibliography</a>
+      <a href="about.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:#4a453d;padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">About</a>
+    </nav>
+  </header>
+
+  <main style="flex:1">
+
+    <!-- HERO -->
+    <section style="max-width:1080px;margin:0 auto;padding:88px 44px 60px">
+      <div style="font:500 11px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.22em;color:oklch(0.45 0.12 260);margin-bottom:28px">DH 101 · Digital Humanities Project · Spring 2026</div>
+      <h1 style="font:600 68px/1.04 'Spectral',serif;letter-spacing:-0.02em;margin:0 0 28px;max-width:14ch">County Lines</h1>
+      <p style="font:400 24px/1.5 'Spectral',serif;color:#3a352d;margin:0 0 40px;max-width:34ch;text-wrap:pretty">Geography and the uneven spread of COVID-19 across California's fifty-eight counties.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+        <a href="Narrative.dc.html" style="display:inline-flex;align-items:center;gap:9px;background:#1d1b17;color:#f6f4ef;font:500 11px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.12em;padding:15px 22px;border-radius:8px" style-hover="background:oklch(0.42 0.13 42)">Read the narrative →</a>
+        <a href="DataCritique.dc.html" style="display:inline-flex;align-items:center;gap:9px;color:#1d1b17;font:500 11px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.12em;padding:15px 22px;border-radius:8px;border:1px solid rgba(29,27,23,0.22)" style-hover="background:rgba(29,27,23,0.05)">Data critique</a>
+      </div>
+    </section>
+
+    <!-- ABSTRACT BAND -->
+    <section style="border-top:1px solid rgba(29,27,23,0.12);border-bottom:1px solid rgba(29,27,23,0.12);background:#fbfaf6">
+      <div style="max-width:1080px;margin:0 auto;padding:56px 44px;display:grid;grid-template-columns:220px 1fr;gap:48px">
+        <div style="font:500 11px/1.7 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:#8a8378">Research<br>question</div>
+        <div>
+          <p style="font:400 22px/1.55 'Spectral',serif;color:#2a261f;margin:0 0 20px;text-wrap:pretty">How did a county's geographic and structural characteristics — density, rurality, distance from metropolitan centers, economic composition — shape the timing and severity of COVID-19 across the successive waves of the pandemic?</p>
+          <p style="font:400 16px/1.7 'Spectral',serif;color:#5a5348;margin:0;max-width:66ch;text-wrap:pretty">This report treats California's counties as a natural comparison and asks what the geography of infection reveals about the state's social and economic fault lines. Replace this paragraph with your own project abstract. [placeholder text — your abstract goes here.]</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CARDS -->
+    <section style="max-width:1080px;margin:0 auto;padding:64px 44px 24px">
+      <div style="font:500 11px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.18em;color:#8a8378;margin-bottom:28px">Explore the report</div>
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:20px">
+
+        <a href="narrative.html" style="display:block;background:#fbfaf6;border:1px solid rgba(29,27,23,0.12);border-radius:14px;padding:32px" style-hover="border-color:oklch(0.45 0.12 260 / 0.55);background:#fff">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:20px">
+            <span style="font:500 10px/1 'IBM Plex Mono',monospace;letter-spacing:0.14em;color:oklch(0.45 0.12 260)">01</span>
+            <span style="font:500 10px/1 'IBM Plex Mono',monospace;letter-spacing:0.1em;color:#8a8378">TIMELINE · 5 CHARTS · 1 MAP</span>
+          </div>
+          <h3 style="font:600 27px/1.15 'Spectral',serif;margin:0 0 10px">Narrative &amp; Findings</h3>
+          <p style="font:400 15.5px/1.6 'Spectral',serif;color:#5a5348;margin:0">The core essay tracing infection across the pandemic's stages, with an interactive timeline, data visualizations, and a county-level map.</p>
+        </a>
+
+        <a href="data-critique.html" style="display:block;background:#fbfaf6;border:1px solid rgba(29,27,23,0.12);border-radius:14px;padding:32px" style-hover="border-color:oklch(0.45 0.12 260 / 0.55);background:#fff">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:20px">
+            <span style="font:500 10px/1 'IBM Plex Mono',monospace;letter-spacing:0.14em;color:oklch(0.45 0.12 260)">02</span>
+            <span style="font:500 10px/1 'IBM Plex Mono',monospace;letter-spacing:0.1em;color:#8a8378">ONTOLOGY · LIMITS</span>
+          </div>
+          <h3 style="font:600 27px/1.15 'Spectral',serif;margin:0 0 10px">Data Critique</h3>
+          <p style="font:400 15.5px/1.6 'Spectral',serif;color:#5a5348;margin:0">What our dataset can and cannot illuminate, and the ideological effects of how its sources were divided into data.</p>
+        </a>
+
+        <a href="bibliography.html" style="display:block;background:#fbfaf6;border:1px solid rgba(29,27,23,0.12);border-radius:14px;padding:32px" style-hover="border-color:oklch(0.45 0.12 260 / 0.55);background:#fff">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:20px">
+            <span style="font:500 10px/1 'IBM Plex Mono',monospace;letter-spacing:0.14em;color:oklch(0.45 0.12 260)">03</span>
+            <span style="font:500 10px/1 'IBM Plex Mono',monospace;letter-spacing:0.1em;color:#8a8378">ANNOTATED</span>
+          </div>
+          <h3 style="font:600 27px/1.15 'Spectral',serif;margin:0 0 10px">Bibliography</h3>
+          <p style="font:400 15.5px/1.6 'Spectral',serif;color:#5a5348;margin:0">Annotated sources — datasets, scholarship, and reporting that grounded our analysis and interpretation.</p>
+        </a>
+
+        <a href="about.html" style="display:block;background:#fbfaf6;border:1px solid rgba(29,27,23,0.12);border-radius:14px;padding:32px" style-hover="border-color:oklch(0.45 0.12 260 / 0.55);background:#fff">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:20px">
+            <span style="font:500 10px/1 'IBM Plex Mono',monospace;letter-spacing:0.14em;color:oklch(0.45 0.12 260)">04</span>
+            <span style="font:500 10px/1 'IBM Plex Mono',monospace;letter-spacing:0.1em;color:#8a8378">METHOD · TEAM</span>
+          </div>
+          <h3 style="font:600 27px/1.15 'Spectral',serif;margin:0 0 10px">About the Project</h3>
+          <p style="font:400 15.5px/1.6 'Spectral',serif;color:#5a5348;margin:0">Our sources, processing, and presentation decisions; team bios and roles; and acknowledgments.</p>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- KEY FIGURES -->
+    <section style="max-width:1080px;margin:0 auto;padding:56px 44px 88px">
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;border-top:1px solid rgba(29,27,23,0.12);padding-top:40px">
+        <div>
+          <div style="font:600 46px/1 'Spectral',serif;color:oklch(0.45 0.12 260);letter-spacing:-0.02em">58</div>
+          <div style="font:400 14px/1.5 'IBM Plex Mono',monospace;color:#8a8378;margin-top:10px">Counties compared</div>
+        </div>
+        <div>
+          <div style="font:600 46px/1 'Spectral',serif;color:oklch(0.45 0.12 260);letter-spacing:-0.02em">4</div>
+          <div style="font:400 14px/1.5 'IBM Plex Mono',monospace;color:#8a8378;margin-top:10px">Pandemic stages</div>
+        </div>
+        <div>
+          <div style="font:600 46px/1 'Spectral',serif;color:oklch(0.45 0.12 260);letter-spacing:-0.02em">2020&#8211;23</div>
+          <div style="font:400 14px/1.5 'IBM Plex Mono',monospace;color:#8a8378;margin-top:10px">Study window</div>
+        </div>
+        <div>
+          <div style="font:600 46px/1 'Spectral',serif;color:oklch(0.45 0.12 260);letter-spacing:-0.02em">5+</div>
+          <div style="font:400 14px/1.5 'IBM Plex Mono',monospace;color:#8a8378;margin-top:10px">Visualizations</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer style="border-top:1px solid rgba(29,27,23,0.12);background:#fbfaf6">
+    <div style="max-width:1080px;margin:0 auto;padding:36px 44px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;align-items:center">
+      <div style="font:500 10.5px/1.6 'IBM Plex Mono',monospace;color:#8a8378;text-transform:uppercase;letter-spacing:0.1em">County Lines · DH 101 · Spring 2026</div>
+      <div style="display:flex;gap:20px">
+        <a href="Narrative.dc.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;color:#4a453d;text-transform:uppercase;letter-spacing:0.1em">Narrative</a>
+        <a href="Bibliography.dc.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;color:#4a453d;text-transform:uppercase;letter-spacing:0.1em">Bibliography</a>
+        <a href="About.dc.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;color:#4a453d;text-transform:uppercase;letter-spacing:0.1em">About</a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+</body>
+</html>

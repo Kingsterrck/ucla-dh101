@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+<!--  *{box-sizing:border-box}-->
+<!--  html{scroll-behavior:smooth}-->
+<!--  :root{&#45;&#45;accent:oklch(0.45 0.12 260);&#45;&#45;accent-strong:oklch(0.38 0.13 260)}-->
+<!--  body{margin:0;background:#f6f4ef;color:#1d1b17;font-family:'Spectral',Georgia,serif;-webkit-font-smoothing:antialiased}-->
+<!--  a{color:var(&#45;&#45;accent)}-->
+<!--  a:hover{color:var(&#45;&#45;accent-strong)}-->
+<!--  ::selection{background:color-mix(in srgb, var(&#45;&#45;accent) 22%, transparent)}-->
+
+    *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:#f6f4ef;color:#1d1b17;font-family:'Spectral',Georgia,serif;-webkit-font-smoothing:antialiased}
+  a{color:oklch(0.45 0.12 260);text-decoration:none}
+  a:hover{color:oklch(0.38 0.13 260)}
+  ::selection{background:oklch(0.45 0.12 260 / 0.22)}
+</style>
+</helmet>
+
+<div style="min-height:100vh;display:flex;flex-direction:column">
+
+  <header style="position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:15px 44px;background:rgba(246,244,239,0.86);backdrop-filter:blur(10px);border-bottom:1px solid rgba(29,27,23,0.12)">
+    <a href="index.html" style="display:flex;align-items:baseline;gap:11px">
+      <span style="font:600 16px/1 'Spectral',serif;color:#1d1b17;letter-spacing:0.01em">County Lines</span>
+      <span style="font:500 9.5px/1 'IBM Plex Mono',monospace;color:oklch(0.45 0.12 260);text-transform:uppercase;letter-spacing:0.16em">COVID · California</span>
+    </a>
+    <nav style="display:flex;gap:2px;align-items:center">
+      <a href="index.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:#4a453d;padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">Home</a>
+      <a href="narrative.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:oklch(0.45 0.12 260);padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">Narrative</a>
+      <a href="data-critique.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:#4a453d;padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">Data Critique</a>
+      <a href="bibliography.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:#4a453d;padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">Bibliography</a>
+      <a href="about.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:#4a453d;padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">About</a>
+    </nav>
+  </header>
+
+  <main style="flex:1">
+
+    <!-- ARTICLE HEADER -->
+    <article style="max-width:720px;margin:0 auto;padding:72px 32px 0">
+      <div style="font:500 11px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.2em;color:var(--accent);margin-bottom:26px">Narrative &amp; Findings</div>
+      <h1 style="font:600 52px/1.08 'Spectral',serif;letter-spacing:-0.02em;margin:0 0 24px;text-wrap:balance">The Uneven Map: How Geography Shaped California's Pandemic</h1>
+      <p style="font:400 21px/1.5 'Spectral',serif;color:#5a5348;margin:0 0 32px;text-wrap:pretty">A working draft. Replace this standfirst and the body text below with your own writing — the structure, figures, and captions are ready for your ~2,500-word narrative.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:20px;padding:18px 0;border-top:1px solid rgba(29,27,23,0.12);border-bottom:1px solid rgba(29,27,23,0.12);font:400 12px/1.5 'IBM Plex Mono',monospace;color:#8a8378">
+        <span>BY [TEAM NAME]</span>
+        <span style="color:rgba(29,27,23,0.2)">|</span>
+        <span>DH 101 · SPRING 2026</span>
+        <span style="color:rgba(29,27,23,0.2)">|</span>
+        <span>~12 MIN READ</span>
+      </div>
+    </article>
+
+    <!-- INTRO -->
+    <article style="max-width:720px;margin:0 auto;padding:44px 32px 0;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
+      <p style="margin:0 0 28px;text-wrap:pretty"><span style="float:left;font:600 68px/0.78 'Spectral',serif;padding:6px 12px 0 0;color:var(--accent)">W</span>hen the first shelter-in-place orders arrived in March 2020, California was often described as a single unit — one state, one curve, one response. But the pandemic was never experienced uniformly. This is placeholder text; replace it with your introduction, which should establish the humanities question your project answers and preview the argument that follows.</p>
+      <p style="margin:0 0 28px;text-wrap:pretty">The county became the pandemic's fundamental administrative and epidemiological unit, and the fifty-eight counties of California differ enormously in density, wealth, industry, and distance from the coastal metropolitan cores. Use this paragraph to introduce your data and the comparison it makes possible. [placeholder]</p>
+    </article>
+
+    <!-- SECTION 1 -->
+    <article style="max-width:720px;margin:0 auto;padding:20px 32px 0">
+      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:44px 0 8px">01 — A Pandemic in Stages</h2>
+      <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0 0 28px;text-wrap:pretty">We divide the study window into four stages, each with a distinct geography of risk. The timeline below is our own construction, synthesizing case peaks, policy milestones, and the arrival of each variant. Hover over an entry to read more. [Replace event text with your own annotations.]</p>
+    </article>
+
+    <!-- TIMELINE -->
+    <figure style="max-width:940px;margin:8px auto 0;padding:0 32px">
+      <div style="background:#fbfaf6;border:1px solid rgba(29,27,23,0.12);border-radius:16px;padding:36px 40px">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:26px">
+          <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.14em;color:#8a8378">FIG. 1 — PROJECT TIMELINE</span>
+          <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.14em;color:#8a8378">2020 — 2023</span>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:2px">
+          <sc-for list="{{ timeline }}" as="ev" hint-placeholder-count="4">
+            <div style="display:grid;grid-template-columns:120px 20px 1fr;gap:18px;align-items:start;padding:16px 14px;border-radius:10px;cursor:default" style-hover="background:#fff">
+              <div style="font:500 12px/1.5 'IBM Plex Mono',monospace;color:var(--accent);padding-top:2px">{{ ev.date }}</div>
+              <div style="display:flex;flex-direction:column;align-items:center;padding-top:5px">
+                <span style="width:11px;height:11px;border-radius:50%;background:var(--accent);flex:none"></span>
+                <span style="width:1px;flex:1;min-height:34px;background:rgba(29,27,23,0.14);margin-top:4px"></span>
+              </div>
+              <div>
+                <div style="font:600 18px/1.35 'Spectral',serif;color:#1d1b17;margin-bottom:4px">{{ ev.title }}</div>
+                <div style="font:400 15px/1.55 'Spectral',serif;color:#6a6459;text-wrap:pretty">{{ ev.body }}</div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+      <figcaption style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;margin-top:14px;text-align:center">Fig. 1 &mdash; Timeline of California's pandemic stages. Source: [your citation]. Illustration by the authors.</figcaption>
+    </figure>
+
+    <!-- SECTION 2 + LINE CHART -->
+    <article style="max-width:720px;margin:0 auto;padding:20px 32px 0">
+      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:52px 0 8px">02 — The Shape of the Curve</h2>
+      <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0 0 28px;text-wrap:pretty">Statewide, reported cases moved through several distinct waves. But the aggregate curve hides how differently each wave landed across the state. Use this section to walk the reader through the temporal pattern before turning to its geography. [placeholder]</p>
+    </article>
+
+    <figure style="max-width:940px;margin:8px auto 0;padding:0 32px">
+      <div style="background:#fbfaf6;border:1px solid rgba(29,27,23,0.12);border-radius:16px;padding:32px 36px 24px">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px">
+          <span style="font:600 17px/1.3 'Spectral',serif;color:#1d1b17">Reported cases per 100k, statewide</span>
+          <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.12em;color:#8a8378">FIG. 2 — LINE</span>
+        </div>
+        <div style="font:400 13px/1.5 'IBM Plex Mono',monospace;color:#8a8378;margin-bottom:18px">Placeholder data · monthly, Jan 2020 – Dec 2021</div>
+        <div style="position:relative" onMouseLeave="{{ clearLine }}">
+          <svg viewBox="0 0 760 320" style="width:100%;height:auto;display:block;overflow:visible">
+            <sc-for list="{{ line.grid }}" as="g" hint-placeholder-count="4">
+              <line x1="52" x2="742" y1="{{ g.y }}" y2="{{ g.y }}" stroke="rgba(29,27,23,0.1)" stroke-width="1"></line>
+            </sc-for>
+            <sc-for list="{{ line.grid }}" as="g" hint-placeholder-count="4">
+              <text x="44" y="{{ g.ty }}" text-anchor="end" style="font:400 11px 'IBM Plex Mono',monospace;fill:#a49c90">{{ g.label }}</text>
+            </sc-for>
+            <sc-for list="{{ line.xticks }}" as="t" hint-placeholder-count="5">
+              <text x="{{ t.x }}" y="304" text-anchor="middle" style="font:400 11px 'IBM Plex Mono',monospace;fill:#a49c90">{{ t.label }}</text>
+            </sc-for>
+            <path d="{{ line.area }}" fill="{{ accentSoft }}"></path>
+            <path d="{{ line.path }}" fill="none" stroke="{{ accent }}" stroke-width="2.5" stroke-linejoin="round"></path>
+            <sc-for list="{{ line.pts }}" as="p" hint-placeholder-count="12">
+              <circle cx="{{ p.cx }}" cy="{{ p.cy }}" r="4" fill="#fbfaf6" stroke="{{ accent }}" stroke-width="2" style="cursor:pointer" onMouseEnter="{{ p.onEnter }}"></circle>
+            </sc-for>
+          </svg>
+          <sc-if value="{{ tipLine }}" hint-placeholder-val="{{ false }}">
+            <div style="position:absolute;transform:translate(-50%,-118%);left:{{ tipLine.leftPct }}%;top:{{ tipLine.topPct }}%;background:#1d1b17;color:#f6f4ef;padding:8px 11px;border-radius:8px;pointer-events:none;white-space:nowrap;box-shadow:0 6px 20px rgba(0,0,0,0.2)">
+              <div style="font:500 10px/1.2 'IBM Plex Mono',monospace;color:color-mix(in srgb, var(--accent) 45%, white);letter-spacing:0.06em">{{ tipLine.label }}</div>
+              <div style="font:600 15px/1.2 'Spectral',serif;margin-top:3px">{{ tipLine.val }} / 100k</div>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+      <figcaption style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;margin-top:14px;text-align:center">Fig. 2 &mdash; Statewide reported case rate over time. Placeholder values &mdash; replace with your dataset. Chart by the authors.</figcaption>
+    </figure>
+
+    <!-- SECTION 3 + BAR CHART -->
+    <article style="max-width:720px;margin:0 auto;padding:20px 32px 0">
+      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:52px 0 8px">03 — Where the Burden Fell</h2>
+      <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0 0 28px;text-wrap:pretty">Ranking counties by cumulative case rate reveals a striking pattern: the agricultural interior, not the dense coastal cities, carried the heaviest burden. Interpret that inversion here — what does it say about essential work, housing, and access to care? [placeholder]</p>
+    </article>
+
+    <figure style="max-width:940px;margin:8px auto 0;padding:0 32px">
+      <div style="background:#fbfaf6;border:1px solid rgba(29,27,23,0.12);border-radius:16px;padding:32px 36px 24px">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px">
+          <span style="font:600 17px/1.3 'Spectral',serif;color:#1d1b17">Cumulative case rate by county</span>
+          <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.12em;color:#8a8378">FIG. 3 — BAR</span>
+        </div>
+        <div style="font:400 13px/1.5 'IBM Plex Mono',monospace;color:#8a8378;margin-bottom:18px">Placeholder data · top 12 counties, cases per 1,000</div>
+        <div style="position:relative" onMouseLeave="{{ clearBar }}">
+          <svg viewBox="0 0 760 340" style="width:100%;height:auto;display:block;overflow:visible">
+            <sc-for list="{{ bar.grid }}" as="g" hint-placeholder-count="4">
+              <line x1="{{ g.xline }}" x2="{{ g.xline }}" y1="14" y2="310" stroke="rgba(29,27,23,0.1)" stroke-width="1"></line>
+            </sc-for>
+            <sc-for list="{{ bar.grid }}" as="g" hint-placeholder-count="4">
+              <text x="{{ g.xline }}" y="328" text-anchor="middle" style="font:400 11px 'IBM Plex Mono',monospace;fill:#a49c90">{{ g.label }}</text>
+            </sc-for>
+            <sc-for list="{{ bar.bars }}" as="b" hint-placeholder-count="12">
+              <rect x="{{ b.x }}" y="{{ b.y }}" width="{{ b.w }}" height="{{ b.h }}" rx="3" fill="{{ b.fill }}" style="cursor:pointer" onMouseEnter="{{ b.onEnter }}"></rect>
+            </sc-for>
+            <sc-for list="{{ bar.bars }}" as="b" hint-placeholder-count="12">
+              <text x="122" y="{{ b.labelY }}" text-anchor="end" style="font:400 11px 'IBM Plex Mono',monospace;fill:#6a6459">{{ b.name }}</text>
+            </sc-for>
+          </svg>
+          <sc-if value="{{ tipBar }}" hint-placeholder-val="{{ false }}">
+            <div style="position:absolute;transform:translate(-50%,-118%);left:{{ tipBar.leftPct }}%;top:{{ tipBar.topPct }}%;background:#1d1b17;color:#f6f4ef;padding:8px 11px;border-radius:8px;pointer-events:none;white-space:nowrap;box-shadow:0 6px 20px rgba(0,0,0,0.2)">
+              <div style="font:500 10px/1.2 'IBM Plex Mono',monospace;color:color-mix(in srgb, var(--accent) 45%, white);letter-spacing:0.06em">{{ tipBar.label }}</div>
+              <div style="font:600 15px/1.2 'Spectral',serif;margin-top:3px">{{ tipBar.val }} / 1k</div>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+      <figcaption style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;margin-top:14px;text-align:center">Fig. 3 &mdash; Cumulative case rate, twelve highest counties. Placeholder values. Chart by the authors.</figcaption>
+    </figure>
+
+    <!-- SECTION 4 + MAP PLACEHOLDER -->
+    <article style="max-width:720px;margin:0 auto;padding:20px 32px 0">
+      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:52px 0 8px">04 — Reading the Map</h2>
+      <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0 0 28px;text-wrap:pretty">A choropleth of case rates makes the interior–coast divide legible at a glance. The interactive map below is where your ArcGIS embed will live. Guide the reader through what it shows and how to read the shading. [placeholder]</p>
+    </article>
+
+    <figure style="max-width:940px;margin:8px auto 0;padding:0 32px">
+      <div style="position:relative;border:1px solid rgba(29,27,23,0.12);border-radius:16px;overflow:hidden;background:repeating-linear-gradient(135deg,#efece5,#efece5 12px,#f3f0ea 12px,#f3f0ea 24px);aspect-ratio:16/10;display:flex;align-items:center;justify-content:center">
+        <div style="text-align:center;padding:32px">
+          <div style="font:500 11px/1.6 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.16em;color:var(--accent);margin-bottom:14px">Embed slot</div>
+          <div style="font:600 26px/1.2 'Spectral',serif;color:#3a352d;margin-bottom:12px">ArcGIS map goes here</div>
+          <div style="font:400 14px/1.6 'IBM Plex Mono',monospace;color:#8a8378;max-width:44ch;margin:0 auto">Paste your ArcGIS Web Map or StoryMap<br>&lt;iframe&gt; in place of this block.</div>
+        </div>
+        <span style="position:absolute;top:16px;left:16px;font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.12em;color:#8a8378">FIG. 4 — MAP</span>
+      </div>
+      <figcaption style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;margin-top:14px;text-align:center">Fig. 4 &mdash; County-level choropleth of COVID-19 case rates (interactive). Built in ArcGIS by the authors. Source: [your citation].</figcaption>
+    </figure>
+
+    <!-- SECTION 5 + SCATTER -->
+    <article style="max-width:720px;margin:0 auto;padding:20px 32px 0">
+      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:52px 0 8px">05 — Density Is Not Destiny</h2>
+      <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0 0 28px;text-wrap:pretty">If density alone drove the pandemic, we would expect the densest counties to suffer most. Plotting population density against case rate complicates that intuition. Use this section to make your central analytical claim. [placeholder]</p>
+    </article>
+
+    <figure style="max-width:940px;margin:8px auto 0;padding:0 32px">
+      <div style="background:#fbfaf6;border:1px solid rgba(29,27,23,0.12);border-radius:16px;padding:32px 36px 24px">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px">
+          <span style="font:600 17px/1.3 'Spectral',serif;color:#1d1b17">Population density vs. case rate</span>
+          <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.12em;color:#8a8378">FIG. 5 — SCATTER</span>
+        </div>
+        <div style="font:400 13px/1.5 'IBM Plex Mono',monospace;color:#8a8378;margin-bottom:18px">Placeholder data · one point per county (log density axis)</div>
+        <div style="position:relative" onMouseLeave="{{ clearScatter }}">
+          <svg viewBox="0 0 760 340" style="width:100%;height:auto;display:block;overflow:visible">
+            <sc-for list="{{ scatter.grid }}" as="g" hint-placeholder-count="4">
+              <line x1="56" x2="742" y1="{{ g.y }}" y2="{{ g.y }}" stroke="rgba(29,27,23,0.1)" stroke-width="1"></line>
+            </sc-for>
+            <sc-for list="{{ scatter.grid }}" as="g" hint-placeholder-count="4">
+              <text x="48" y="{{ g.ty }}" text-anchor="end" style="font:400 11px 'IBM Plex Mono',monospace;fill:#a49c90">{{ g.label }}</text>
+            </sc-for>
+            <sc-for list="{{ scatter.xticks }}" as="t" hint-placeholder-count="4">
+              <text x="{{ t.x }}" y="324" text-anchor="middle" style="font:400 11px 'IBM Plex Mono',monospace;fill:#a49c90">{{ t.label }}</text>
+            </sc-for>
+            <sc-if value="{{ showTrendline }}" hint-placeholder-val="{{ true }}">
+              <path d="{{ scatter.trend }}" fill="none" stroke="{{ secondary }}" stroke-width="2" stroke-dasharray="5 5"></path>
+            </sc-if>
+            <sc-for list="{{ scatter.pts }}" as="p" hint-placeholder-count="18">
+              <circle cx="{{ p.cx }}" cy="{{ p.cy }}" r="6" fill="{{ scatterFill }}" stroke="{{ accentStrong }}" stroke-width="1.5" style="cursor:pointer" onMouseEnter="{{ p.onEnter }}"></circle>
+            </sc-for>
+          </svg>
+          <div style="font:400 11px/1 'IBM Plex Mono',monospace;color:#a49c90;text-align:center;margin-top:2px">population per sq. mile (log scale) →</div>
+          <sc-if value="{{ tipScatter }}" hint-placeholder-val="{{ false }}">
+            <div style="position:absolute;transform:translate(-50%,-118%);left:{{ tipScatter.leftPct }}%;top:{{ tipScatter.topPct }}%;background:#1d1b17;color:#f6f4ef;padding:8px 11px;border-radius:8px;pointer-events:none;white-space:nowrap;box-shadow:0 6px 20px rgba(0,0,0,0.2)">
+              <div style="font:500 10px/1.2 'IBM Plex Mono',monospace;color:color-mix(in srgb, var(--accent) 45%, white);letter-spacing:0.06em">{{ tipScatter.label }}</div>
+              <div style="font:600 14px/1.3 'Spectral',serif;margin-top:3px">{{ tipScatter.val }}</div>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+      <figcaption style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;margin-top:14px;text-align:center">Fig. 5 &mdash; Density plotted against cumulative case rate. Placeholder values. Chart by the authors.</figcaption>
+    </figure>
+
+    <!-- CONCLUSION -->
+    <article style="max-width:720px;margin:0 auto;padding:20px 32px 0;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
+      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:52px 0 20px">Conclusion</h2>
+      <p style="margin:0 0 28px;text-wrap:pretty">Taken together, these views suggest that the geography of COVID-19 in California was less about density than about the social organization of space — who had to leave home, who could not distance, and who lived far from care. Close with your synthesis and its stakes for the humanities. [placeholder]</p>
+      <p style="margin:0 0 28px;text-wrap:pretty">See the <a href="DataCritique.dc.html">data critique</a> for the limits of these claims, and the <a href="Bibliography.dc.html">bibliography</a> for our sources.</p>
+    </article>
+
+    <!-- ILLUSTRATION PLACEHOLDER -->
+    <figure style="max-width:940px;margin:36px auto 0;padding:0 32px">
+      <div style="border:1px solid rgba(29,27,23,0.12);border-radius:16px;overflow:hidden;background:repeating-linear-gradient(135deg,#efece5,#efece5 12px,#f3f0ea 12px,#f3f0ea 24px);aspect-ratio:21/9;display:flex;align-items:center;justify-content:center">
+        <div style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;text-align:center">[ photograph or illustration ]<br>drop image here &middot; remember caption + credit</div>
+      </div>
+      <figcaption style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;margin-top:14px;text-align:center">A well-captioned, credited image belongs here. Source: [credit].</figcaption>
+    </figure>
+
+    <div style="height:88px"></div>
+
+  </main>
+
+  <footer style="border-top:1px solid rgba(29,27,23,0.12);background:#fbfaf6">
+    <div style="max-width:1080px;margin:0 auto;padding:36px 44px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;align-items:center">
+      <div style="font:500 10.5px/1.6 'IBM Plex Mono',monospace;color:#8a8378;text-transform:uppercase;letter-spacing:0.1em">County Lines · DH 101 · Spring 2026</div>
+      <div style="display:flex;gap:20px">
+        <a href="Home.dc.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;color:#4a453d;text-transform:uppercase;letter-spacing:0.1em">Home</a>
+        <a href="Bibliography.dc.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;color:#4a453d;text-transform:uppercase;letter-spacing:0.1em">Bibliography</a>
+        <a href="About.dc.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;color:#4a453d;text-transform:uppercase;letter-spacing:0.1em">About</a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;$preview&quot;: { &quot;width&quot;: 960, &quot;height&quot;: 760 },
+  &quot;accent&quot;: {
+    &quot;editor&quot;: &quot;color&quot;,
+    &quot;default&quot;: &quot;oklch(0.45 0.12 260)&quot;,
+    &quot;tsType&quot;: &quot;string&quot;,
+    &quot;section&quot;: &quot;Theme&quot;,
+    &quot;options&quot;: [&quot;oklch(0.45 0.12 260)&quot;, &quot;oklch(0.52 0.13 42)&quot;, &quot;oklch(0.48 0.10 175)&quot;, &quot;oklch(0.45 0.14 20)&quot;]
+  },
+  &quot;secondary&quot;: {
+    &quot;editor&quot;: &quot;color&quot;,
+    &quot;default&quot;: &quot;oklch(0.55 0.08 220)&quot;,
+    &quot;tsType&quot;: &quot;string&quot;,
+    &quot;section&quot;: &quot;Theme&quot;,
+    &quot;options&quot;: [&quot;oklch(0.55 0.08 220)&quot;, &quot;oklch(0.55 0.10 175)&quot;, &quot;oklch(0.60 0.10 60)&quot;]
+  },
+  &quot;showTrendline&quot;: {
+    &quot;editor&quot;: &quot;boolean&quot;,
+    &quot;default&quot;: true,
+    &quot;tsType&quot;: &quot;boolean&quot;,
+    &quot;section&quot;: &quot;Charts&quot;
+  }
+}">
+class Component extends DCLogic {
+  state = { tipLine: null, tipBar: null, tipScatter: null };
+
+  componentDidMount(){ this.applyTheme(); }
+  componentDidUpdate(){ this.applyTheme(); }
+  applyTheme(){
+    const a = this.props.accent || 'oklch(0.45 0.12 260)';
+    const root = document.documentElement;
+    root.style.setProperty('--accent', a);
+    root.style.setProperty('--accent-strong', `color-mix(in srgb, ${a} 78%, black)`);
+  }
+
+  buildLine() {
+    const vals = [2,5,12,18,15,22,40,55,48,60,140,210,160,90,55,70,120,95,60,80,260,180,70,40];
+    const labels = ["Jan '20","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan '21","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec '21"];
+    const W=760,H=320,padL=52,padR=18,padB=42;
+    const plotW=W-padL-padR, plotH=H-18-padB, bottom=H-padB, vmax=300;
+    const x=i=>padL+(i/(vals.length-1))*plotW;
+    const y=v=>bottom-(v/vmax)*plotH;
+    const pts=vals.map((v,i)=>{
+      const cx=x(i), cy=y(v);
+      return {cx,cy,label:labels[i],val:v,
+        onEnter:()=>this.setState({tipLine:{leftPct:cx/W*100,topPct:cy/H*100,label:labels[i],val:v}})};
+    });
+    const path=pts.map((p,i)=>(i?'L':'M')+p.cx.toFixed(1)+' '+p.cy.toFixed(1)).join(' ');
+    const area=path+` L${x(vals.length-1).toFixed(1)} ${bottom} L${padL} ${bottom} Z`;
+    const grid=[0,100,200,300].map(v=>({y:y(v),ty:y(v)+4,label:String(v)}));
+    const xticks=[0,6,12,18,23].map(i=>({x:x(i),label:labels[i]}));
+    return {pts,path,area,grid,xticks};
+  }
+
+  buildBar(accent) {
+    const data=[["Imperial",312],["Kings",289],["Lassen",271],["Tulare",258],["Kern",244],["San Bernardino",231],["Fresno",219],["Merced",208],["Stanislaus",197],["Los Angeles",188],["Riverside",176],["San Francisco",121]];
+    const W=760,H=340,padT=14,padB=30,left=128,right=742,vmax=350;
+    const plotW=right-left, plotH=H-padT-padB;
+    const n=data.length, band=plotH/n, bh=band*0.6;
+    const xv=v=>left+(v/vmax)*plotW;
+    const bars=data.map(([name,v],i)=>{
+      const yTop=padT+i*band+(band-bh)/2;
+      const w=(v/vmax)*plotW;
+      const cx=left+w, cyc=yTop+bh/2;
+      const fill=i<3?accent:`color-mix(in srgb, ${accent} 58%, transparent)`;
+      return {name,x:left,y:yTop,w,h:bh,fill,labelY:cyc+4,val:v,
+        onEnter:()=>this.setState({tipBar:{leftPct:cx/W*100,topPct:cyc/H*100,label:name,val:v}})};
+    });
+    const grid=[0,100,200,300].map(v=>({xline:xv(v),label:String(v)}));
+    return {bars,grid};
+  }
+
+  buildScatter() {
+    const data=[["Alpine",1.6,180],["Sierra",3,150],["Modoc",2.4,205],["Lassen",8,271],["Imperial",44,312],["Kings",148,289],["Tulare",67,258],["Kern",108,244],["Fresno",164,219],["Merced",148,208],["Stanislaus",422,197],["San Bernardino",108,231],["Sacramento",1700,171],["Riverside",325,176],["Orange",4000,158],["Alameda",2200,146],["Los Angeles",2500,188],["San Diego",780,150],["Santa Clara",1500,138],["San Francisco",18800,121]];
+    const W=760,H=340,padT=16,padB=44,left=56,right=742,vmax=350;
+    const plotW=right-left, plotH=H-padT-padB, bottom=H-padB;
+    const lmin=Math.log10(1.5), lmax=Math.log10(20000);
+    const x=d=>left+((Math.log10(d)-lmin)/(lmax-lmin))*plotW;
+    const y=v=>bottom-(v/vmax)*plotH;
+    const pts=data.map(([name,d,v])=>{
+      const cx=x(d), cy=y(v);
+      return {cx,cy,label:name,val:v+' /1k · '+d+' /sq.mi',
+        onEnter:()=>this.setState({tipScatter:{leftPct:cx/W*100,topPct:cy/H*100,label:name,val:v+' /1k · '+d.toLocaleString()+' /sq.mi'}})};
+    });
+    const grid=[0,100,200,300].map(v=>({y:y(v),ty:y(v)+4,label:String(v)}));
+    const xticks=[[10,'10'],[100,'100'],[1000,'1k'],[10000,'10k']].map(([d,l])=>({x:x(d),label:l}));
+    const trend=`M${left} ${y(240)} L${right} ${y(150)}`;
+    return {pts,grid,xticks,trend};
+  }
+
+  renderVals() {
+    const accent = this.props.accent || 'oklch(0.45 0.12 260)';
+    const secondary = this.props.secondary || 'oklch(0.55 0.08 220)';
+    const showTrendline = this.props.showTrendline ?? true;
+    return {
+      accent,
+      secondary,
+      showTrendline,
+      accentSoft: `color-mix(in srgb, ${accent} 12%, transparent)`,
+      accentStrong: `color-mix(in srgb, ${accent} 78%, black)`,
+      scatterFill: `color-mix(in srgb, ${accent} 55%, transparent)`,
+      timeline: [
+        {date:"MAR 2020", title:"First orders & the initial shock", body:"Statewide shelter-in-place. Early cases cluster in coastal metros with international travel links."},
+        {date:"WINTER 2020–21", title:"The first great surge", body:"The largest pre-vaccine wave. Case rates climb fastest in the agricultural interior and among essential workers."},
+        {date:"SUMMER 2021", title:"Delta and the vaccine divide", body:"A more transmissible variant meets uneven vaccine uptake, widening geographic gaps in outcomes."},
+        {date:"WINTER 2021–22", title:"Omicron's steep peak", body:"Record case counts, but a partial decoupling of cases from severe outcomes where vaccination was high."},
+        {date:"2022–23", title:"Endemic transition", body:"Emergency measures wind down. Attention shifts to long COVID and the pandemic's uneven legacy."}
+      ],
+      line: this.buildLine(),
+      bar: this.buildBar(accent),
+      scatter: this.buildScatter(),
+      tipLine: this.state.tipLine,
+      tipBar: this.state.tipBar,
+      tipScatter: this.state.tipScatter,
+      clearLine: ()=>this.setState({tipLine:null}),
+      clearBar: ()=>this.setState({tipBar:null}),
+      clearScatter: ()=>this.setState({tipScatter:null})
+    };
+  }
+}
+</script>
+</body>
+</html>
