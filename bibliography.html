@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="./ca-state.png" type="image/png">
+<link rel="apple-touch-icon" href="./ca-state.png">
 <script src="./support.js"></script>
 </head>
 <body>
@@ -11,6 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./site.css">
 <style>
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -23,35 +26,35 @@
 
 <div style="min-height:100vh;display:flex;flex-direction:column">
 
-  <header style="position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:15px 44px;background:rgba(246,244,239,0.86);backdrop-filter:blur(10px);border-bottom:1px solid rgba(29,27,23,0.12)">
-    <a href="index.html" style="display:flex;align-items:baseline;gap:11px">
-      <span style="font:600 16px/1 'Spectral',serif;color:#1d1b17;letter-spacing:0.01em">County Lines</span>
-      <span style="font:500 9.5px/1 'IBM Plex Mono',monospace;color:oklch(0.45 0.12 260);text-transform:uppercase;letter-spacing:0.16em">COVID · California</span>
+  <header class="site-header">
+    <a href="index.html" class="site-brand">
+      <span class="site-brand-name">County Lines</span>
+      <span class="site-brand-tag">COVID · California</span>
     </a>
-    <nav style="display:flex;gap:2px;align-items:center">
-      <a href="index.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:#4a453d;padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">Home</a>
-      <a href="narrative.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:#4a453d;padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">Narrative</a>
-      <a href="data-critique.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:#4a453d;padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">Data Critique</a>
-      <a href="bibliography.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:oklch(0.45 0.12 260);padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">Bibliography</a>
-      <a href="about.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.11em;color:#4a453d;padding:8px 12px;border-radius:6px" style-hover="background:rgba(29,27,23,0.05)">About</a>
+    <nav class="site-nav">
+      <a href="index.html" style-hover="background:rgba(29,27,23,0.05)">Home</a>
+      <a href="narrative.html" style-hover="background:rgba(29,27,23,0.05)">Narrative</a>
+      <a href="data-critique.html" style-hover="background:rgba(29,27,23,0.05)">Data Critique</a>
+      <a href="bibliography.html" class="is-active" style-hover="background:rgba(29,27,23,0.05)">Bibliography</a>
+      <a href="about.html" style-hover="background:rgba(29,27,23,0.05)">About</a>
     </nav>
   </header>
 
   <main style="flex:1">
-    <section style="max-width:820px;margin:0 auto;padding:72px 32px 32px">
+    <section class="shell-mid page-hero-end">
       <div style="font:500 11px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.2em;color:oklch(0.45 0.12 260);margin-bottom:26px">Annotated Bibliography</div>
-      <h1 style="font:600 52px/1.08 'Spectral',serif;letter-spacing:-0.02em;margin:0 0 24px">Sources</h1>
+      <h1 class="page-title">Sources</h1>
       <p style="font:400 20px/1.6 'Spectral',serif;color:#5a5348;margin:0;max-width:60ch;text-wrap:pretty">Every dataset, scholarly work, and report that shaped this project, with a short annotation explaining its relevance. Sources are arranged by authors alphabetically and do not reflect relative importance.</p>
     </section>
 
-    <section style="max-width:820px;margin:0 auto;padding:16px 32px 0">
+    <section class="shell-mid" style="padding-top:16px">
 <!--      <h2 style="font:600 13px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.16em;color:#8a8378;border-bottom:1px solid rgba(29,27,23,0.14);padding-bottom:14px;margin:40px 0 8px">Datasets &amp; primary sources</h2>-->
       <sc-for list="{{ datasets }}" as="e" hint-placeholder-count="3">
-        <div style="display:grid;grid-template-columns:38px 1fr;gap:20px;padding:26px 0;border-bottom:1px solid rgba(29,27,23,0.09)">
+        <div class="grid-biblio">
           <div style="font:500 12px/1.6 'IBM Plex Mono',monospace;color:oklch(0.45 0.12 260)">{{ e.tag }}</div>
           <div>
             <div style="font:500 18px/1.5 'Spectral',serif;color:#1d1b17;margin-bottom:6px">{{ e.cite }}</div>
-            <div style="font:400 12px/1.5 'IBM Plex Mono',monospace;color:#a49c90;margin-bottom:12px">{{ e.meta }}</div>
+            <div style="font:400 12px/1.5 'IBM Plex Mono',monospace;color:#a49c90;margin-bottom:12px;overflow-wrap:anywhere">{{ e.meta }}</div>
             <p style="font:400 16px/1.65 'Spectral',serif;color:#5a5348;margin:0;text-wrap:pretty">{{ e.note }}</p>
           </div>
         </div>
@@ -92,7 +95,7 @@
   </main>
 
   <footer style="border-top:1px solid rgba(29,27,23,0.12);background:#fbfaf6">
-    <div style="max-width:1080px;margin:0 auto;padding:36px 44px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;align-items:center">
+    <div class="footer-inner">
       <div style="font:500 10.5px/1.6 'IBM Plex Mono',monospace;color:#8a8378;text-transform:uppercase;letter-spacing:0.1em">County Lines · DH 101 · Summer 2026</div>
 <!--      <div style="display:flex;gap:20px">-->
 <!--        <a href="index.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;color:#4a453d;text-transform:uppercase;letter-spacing:0.1em">Home</a>-->
