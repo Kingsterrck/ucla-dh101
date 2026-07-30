@@ -41,14 +41,14 @@
   </header>
 
   <main style="flex:1">
-    <section class="shell-narrow page-hero">
+    <section class="shell-wide page-hero">
       <div style="font:500 11px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.2em;color:oklch(0.45 0.12 260);margin-bottom:26px">About the Project</div>
       <h1 class="page-title">Method &amp; Team</h1>
       <p style="font:400 21px/1.5 'Spectral',serif;color:#5a5348;margin:0;max-width:56ch;text-wrap:pretty">How we built this project across the three levels of a digital humanities project — sources, processing, and presentation — and who did the work.</p>
     </section>
 
     <!-- THREE LEVELS -->
-    <section class="shell-mid" style="padding-top:24px">
+    <section class="shell-wide" style="padding-top:24px">
       <h2 style="font:600 13px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.16em;color:#8a8378;border-bottom:1px solid rgba(29,27,23,0.14);padding-bottom:14px;margin:40px 0 0">The three levels</h2>
       <sc-for list="{{ levels }}" as="lv" hint-placeholder-count="3">
         <div class="grid-levels">
@@ -63,7 +63,7 @@
     </section>
 
     <!-- TEAM -->
-    <section class="shell-mid" style="padding-top:24px">
+    <section class="shell-wide" style="padding-top:24px">
       <h2 style="font:600 13px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.16em;color:#8a8378;border-bottom:1px solid rgba(29,27,23,0.14);padding-bottom:14px;margin:52px 0 8px">The team</h2>
       <div class="grid-team">
         <sc-for list="{{ team }}" as="m" hint-placeholder-count="4">
@@ -78,7 +78,7 @@
     </section>
 
     <!-- RESPONSIBILITIES -->
-    <section class="shell-mid" style="padding-top:24px">
+    <section class="shell-wide" style="padding-top:24px">
       <h2 style="font:600 13px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.16em;color:#8a8378;border-bottom:1px solid rgba(29,27,23,0.14);padding-bottom:14px;margin:52px 0 8px">Who did what</h2>
       <div style="margin-top:16px">
         <sc-for list="{{ responsibilities }}" as="r" hint-placeholder-count="4">
@@ -91,7 +91,7 @@
     </section>
 
     <!-- ACKNOWLEDGMENTS -->
-    <section class="shell-narrow" style="padding-top:24px">
+    <section class="shell-wide" style="padding-top:24px">
       <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:oklch(0.45 0.12 260);margin:52px 0 16px">Acknowledgments</h2>
       <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0;text-wrap:pretty">We thank our instructor and TAs for their guidance, the maintainers of the public datasets we relied on, and everyone who offered feedback along the way. Replace this with your own acknowledgments, naming the people and institutions who helped. [placeholder]</p>
     </section>

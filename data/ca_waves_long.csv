@@ -1,0 +1,291 @@
+"county","cases","deaths","wave","label","days"
+"Alameda",58416,692,1,"Winter 2020-21",120
+"Alpine",73,0,1,"Winter 2020-21",120
+"Amador",3148,26,1,"Winter 2020-21",120
+"Butte",9359,123,1,"Winter 2020-21",120
+"Calaveras",1612,28,1,"Winter 2020-21",120
+"Colusa",1578,5,1,"Winter 2020-21",120
+"Contra Costa",44187,445,1,"Winter 2020-21",120
+"Del Norte",811,3,1,"Winter 2020-21",120
+"El Dorado",8284,94,1,"Winter 2020-21",120
+"Fresno",71118,954,1,"Winter 2020-21",120
+"Glenn",2039,12,1,"Winter 2020-21",120
+"Humboldt",2639,22,1,"Winter 2020-21",120
+"Imperial",16417,302,1,"Winter 2020-21",120
+"Inyo",1045,21,1,"Winter 2020-21",120
+"Kern",68917,427,1,"Winter 2020-21",120
+"Kings",14263,134,1,"Winter 2020-21",120
+"Lake",2446,24,1,"Winter 2020-21",120
+"Lassen",4424,17,1,"Winter 2020-21",120
+"Los Angeles",884305,14364,1,"Winter 2020-21",120
+"Madera",11251,145,1,"Winter 2020-21",120
+"Marin",6179,88,1,"Winter 2020-21",120
+"Mariposa",314,5,1,"Winter 2020-21",120
+"Mendocino",2559,20,1,"Winter 2020-21",120
+"Merced",19832,233,1,"Winter 2020-21",120
+"Modoc",407,3,1,"Winter 2020-21",120
+"Mono",1008,2,1,"Winter 2020-21",120
+"Monterey",31728,230,1,"Winter 2020-21",120
+"Napa",7034,56,1,"Winter 2020-21",120
+"Nevada",3470,57,1,"Winter 2020-21",120
+"Orange",198023,2499,1,"Winter 2020-21",120
+"Placer",16491,181,1,"Winter 2020-21",120
+"Plumas",553,4,1,"Winter 2020-21",120
+"Riverside",223777,2344,1,"Winter 2020-21",120
+"Sacramento",68360,891,1,"Winter 2020-21",120
+"San Benito",4412,43,1,"Winter 2020-21",120
+"San Bernardino",225577,2438,1,"Winter 2020-21",120
+"San Diego",214749,2393,1,"Winter 2020-21",120
+"San Francisco",22861,272,1,"Winter 2020-21",120
+"San Joaquin",46209,600,1,"Winter 2020-21",120
+"San Luis Obispo",15653,205,1,"Winter 2020-21",120
+"San Mateo",28200,154,1,"Winter 2020-21",120
+"Santa Barbara",22852,283,1,"Winter 2020-21",120
+"Santa Clara",86124,1325,1,"Winter 2020-21",120
+"Santa Cruz",12410,160,1,"Winter 2020-21",120
+"Shasta",10073,136,1,"Winter 2020-21",120
+"Sierra",54,0,1,"Winter 2020-21",120
+"Siskiyou",1428,5,1,"Winter 2020-21",120
+"Solano",22531,82,1,"Winter 2020-21",120
+"Sonoma",18727,141,1,"Winter 2020-21",120
+"Stanislaus",36852,504,1,"Winter 2020-21",120
+"Sutter",7027,87,1,"Winter 2020-21",120
+"Tehama",4120,27,1,"Winter 2020-21",120
+"Trinity",332,3,1,"Winter 2020-21",120
+"Tulare",36973,481,1,"Winter 2020-21",120
+"Tuolumne",3645,48,1,"Winter 2020-21",120
+"Ventura",65508,620,1,"Winter 2020-21",120
+"Yolo",9700,128,1,"Winter 2020-21",120
+"Yuba",4283,31,1,"Winter 2020-21",120
+"Alameda",31416,142,2,"Delta",153
+"Alpine",16,0,2,"Delta",153
+"Amador",1858,18,2,"Delta",153
+"Butte",10311,78,2,"Delta",153
+"Calaveras",1921,27,2,"Delta",153
+"Colusa",855,4,2,"Delta",153
+"Contra Costa",30429,211,2,"Delta",153
+"Del Norte",2237,34,2,"Delta",153
+"El Dorado",6523,41,2,"Delta",153
+"Fresno",39667,425,2,"Delta",153
+"Glenn",1488,15,2,"Delta",153
+"Humboldt",5135,70,2,"Delta",153
+"Imperial",5040,30,2,"Delta",153
+"Inyo",931,5,2,"Delta",153
+"Kern",38859,280,2,"Delta",153
+"Kings",9664,90,2,"Delta",153
+"Lake",3277,61,2,"Delta",153
+"Lassen",1896,27,2,"Delta",153
+"Los Angeles",249116,2277,2,"Delta",153
+"Madera",7351,47,2,"Delta",153
+"Marin",3551,18,2,"Delta",153
+"Mariposa",946,10,2,"Delta",153
+"Mendocino",3885,41,2,"Delta",153
+"Merced",11359,130,2,"Delta",153
+"Modoc",199,3,2,"Delta",153
+"Mono",440,1,2,"Delta",153
+"Monterey",5703,208,2,"Delta",153
+"Napa",3030,19,2,"Delta",153
+"Nevada",4388,2,2,"Delta",153
+"Orange",54152,530,2,"Delta",153
+"Placer",15792,141,2,"Delta",153
+"Plumas",1048,4,2,"Delta",153
+"Riverside",72387,645,2,"Delta",153
+"Sacramento",54199,682,2,"Delta",153
+"San Benito",1376,12,2,"Delta",153
+"San Bernardino",60603,1019,2,"Delta",153
+"San Diego",96247,457,2,"Delta",153
+"San Francisco",16355,111,2,"Delta",153
+"San Joaquin",27856,380,2,"Delta",153
+"San Luis Obispo",8455,85,2,"Delta",153
+"San Mateo",11281,224,2,"Delta",153
+"Santa Barbara",10151,69,2,"Delta",153
+"Santa Clara",26879,131,2,"Delta",153
+"Santa Cruz",4265,13,2,"Delta",153
+"Shasta",10654,175,2,"Delta",153
+"Sierra",133,0,2,"Delta",153
+"Siskiyou",2328,25,2,"Delta",153
+"Solano",13030,89,2,"Delta",153
+"Sonoma",11051,84,2,"Delta",153
+"Stanislaus",24976,321,2,"Delta",153
+"Sutter",4571,65,2,"Delta",153
+"Tehama",4206,51,2,"Delta",153
+"Trinity",514,8,2,"Delta",153
+"Tulare",23746,149,2,"Delta",153
+"Tuolumne",3100,24,2,"Delta",153
+"Ventura",17746,151,2,"Delta",153
+"Yolo",6309,37,2,"Delta",153
+"Yuba",4180,33,2,"Delta",153
+"Alameda",139975,240,3,"Omicron",90
+"Alpine",18,0,3,"Omicron",90
+"Amador",3158,17,3,"Omicron",90
+"Butte",13858,54,3,"Omicron",90
+"Calaveras",3139,22,3,"Omicron",90
+"Colusa",1201,1,3,"Omicron",90
+"Contra Costa",94531,184,3,"Omicron",90
+"Del Norte",2099,3,3,"Omicron",90
+"El Dorado",11224,25,3,"Omicron",90
+"Fresno",93106,367,3,"Omicron",90
+"Glenn",1913,4,3,"Omicron",90
+"Humboldt",9383,19,3,"Omicron",90
+"Imperial",26439,102,3,"Omicron",90
+"Inyo",1934,10,3,"Omicron",90
+"Kern",79181,313,3,"Omicron",90
+"Kings",19134,64,3,"Omicron",90
+"Lake",4284,18,3,"Omicron",90
+"Lassen",2234,6,3,"Omicron",90
+"Los Angeles",1269428,3550,3,"Omicron",90
+"Madera",16590,46,3,"Omicron",90
+"Marin",16403,23,3,"Omicron",90
+"Mariposa",1356,2,3,"Omicron",90
+"Mendocino",7131,26,3,"Omicron",90
+"Merced",24821,112,3,"Omicron",90
+"Modoc",198,1,3,"Omicron",90
+"Mono",1185,0,3,"Omicron",90
+"Monterey",39274,67,3,"Omicron",90
+"Napa",12812,26,3,"Omicron",90
+"Nevada",7027,16,3,"Omicron",90
+"Orange",246774,884,3,"Omicron",90
+"Placer",27050,107,3,"Omicron",90
+"Plumas",1116,5,3,"Omicron",90
+"Riverside",226071,821,3,"Omicron",90
+"Sacramento",130905,489,3,"Omicron",90
+"San Benito",5480,18,3,"Omicron",90
+"San Bernardino",206617,610,3,"Omicron",90
+"San Diego",379133,683,3,"Omicron",90
+"San Francisco",74892,122,3,"Omicron",90
+"San Joaquin",67074,226,3,"Omicron",90
+"San Luis Obispo",23702,80,3,"Omicron",90
+"San Mateo",69464,45,3,"Omicron",90
+"Santa Barbara",42487,104,3,"Omicron",90
+"Santa Clara",166682,0,3,"Omicron",90
+"Santa Cruz",26310,30,3,"Omicron",90
+"Shasta",10192,112,3,"Omicron",90
+"Sierra",103,4,3,"Omicron",90
+"Siskiyou",2347,19,3,"Omicron",90
+"Solano",38251,73,3,"Omicron",90
+"Sonoma",41361,64,3,"Omicron",90
+"Stanislaus",44241,222,3,"Omicron",90
+"Sutter",7679,28,3,"Omicron",90
+"Tehama",4220,28,3,"Omicron",90
+"Trinity",426,3,3,"Omicron",90
+"Tulare",44781,204,3,"Omicron",90
+"Tuolumne",5040,85,3,"Omicron",90
+"Ventura",76963,235,3,"Omicron",90
+"Yolo",17163,42,3,"Omicron",90
+"Yuba",6018,24,3,"Omicron",90
+"Alameda",90688,174,4,"BA.2/BA.5",153
+"Alpine",8,0,4,"BA.2/BA.5",153
+"Amador",1617,3,4,"BA.2/BA.5",153
+"Butte",7624,56,4,"BA.2/BA.5",153
+"Calaveras",1321,13,4,"BA.2/BA.5",153
+"Colusa",512,0,4,"BA.2/BA.5",153
+"Contra Costa",62463,118,4,"BA.2/BA.5",153
+"Del Norte",1705,6,4,"BA.2/BA.5",153
+"El Dorado",6112,26,4,"BA.2/BA.5",153
+"Fresno",46591,109,4,"BA.2/BA.5",153
+"Glenn",707,2,4,"BA.2/BA.5",153
+"Humboldt",6324,13,4,"BA.2/BA.5",153
+"Imperial",14107,40,4,"BA.2/BA.5",153
+"Inyo",821,3,4,"BA.2/BA.5",153
+"Kern",37440,242,4,"BA.2/BA.5",153
+"Kings",7691,11,4,"BA.2/BA.5",153
+"Lake",2152,6,4,"BA.2/BA.5",153
+"Lassen",1020,0,4,"BA.2/BA.5",153
+"Los Angeles",575207,1486,4,"BA.2/BA.5",153
+"Madera",8040,15,4,"BA.2/BA.5",153
+"Marin",13755,18,4,"BA.2/BA.5",153
+"Mariposa",1047,4,4,"BA.2/BA.5",153
+"Mendocino",4050,8,4,"BA.2/BA.5",153
+"Merced",11856,44,4,"BA.2/BA.5",153
+"Modoc",188,3,4,"BA.2/BA.5",153
+"Mono",333,1,4,"BA.2/BA.5",153
+"Monterey",21098,36,4,"BA.2/BA.5",153
+"Napa",6418,15,4,"BA.2/BA.5",153
+"Nevada",3277,9,4,"BA.2/BA.5",153
+"Orange",129906,466,4,"BA.2/BA.5",153
+"Placer",13934,43,4,"BA.2/BA.5",153
+"Plumas",845,1,4,"BA.2/BA.5",153
+"Riverside",102101,170,4,"BA.2/BA.5",153
+"Sacramento",71666,319,4,"BA.2/BA.5",153
+"San Benito",3389,6,4,"BA.2/BA.5",153
+"San Bernardino",100491,1155,4,"BA.2/BA.5",153
+"San Diego",177376,290,4,"BA.2/BA.5",153
+"San Francisco",54325,160,4,"BA.2/BA.5",153
+"San Joaquin",32812,97,4,"BA.2/BA.5",153
+"San Luis Obispo",13035,41,4,"BA.2/BA.5",153
+"San Mateo",47818,76,4,"BA.2/BA.5",153
+"Santa Barbara",20338,40,4,"BA.2/BA.5",153
+"Santa Clara",117805,208,4,"BA.2/BA.5",153
+"Santa Cruz",15726,14,4,"BA.2/BA.5",153
+"Shasta",4957,28,4,"BA.2/BA.5",153
+"Sierra",42,0,4,"BA.2/BA.5",153
+"Siskiyou",1264,9,4,"BA.2/BA.5",153
+"Solano",23490,18,4,"BA.2/BA.5",153
+"Sonoma",24301,70,4,"BA.2/BA.5",153
+"Stanislaus",20508,118,4,"BA.2/BA.5",153
+"Sutter",3663,6,4,"BA.2/BA.5",153
+"Tehama",1783,10,4,"BA.2/BA.5",153
+"Trinity",285,0,4,"BA.2/BA.5",153
+"Tulare",23668,117,4,"BA.2/BA.5",153
+"Tuolumne",2972,16,4,"BA.2/BA.5",153
+"Ventura",38071,96,4,"BA.2/BA.5",153
+"Yolo",11727,21,4,"BA.2/BA.5",153
+"Yuba",3199,9,4,"BA.2/BA.5",153
+"Alameda",30644,134,5,"Winter 2022-23",120
+"Alpine",6,0,5,"Winter 2022-23",120
+"Amador",566,5,5,"Winter 2022-23",120
+"Butte",2957,30,5,"Winter 2022-23",120
+"Calaveras",501,5,5,"Winter 2022-23",120
+"Colusa",226,0,5,"Winter 2022-23",120
+"Contra Costa",21535,94,5,"Winter 2022-23",120
+"Del Norte",542,3,5,"Winter 2022-23",120
+"El Dorado",2269,12,5,"Winter 2022-23",120
+"Fresno",20888,98,5,"Winter 2022-23",120
+"Glenn",376,9,5,"Winter 2022-23",120
+"Humboldt",2055,8,5,"Winter 2022-23",120
+"Imperial",6725,13,5,"Winter 2022-23",120
+"Inyo",529,3,5,"Winter 2022-23",120
+"Kern",17631,58,5,"Winter 2022-23",120
+"Kings",3416,18,5,"Winter 2022-23",120
+"Lake",858,7,5,"Winter 2022-23",120
+"Lassen",330,2,5,"Winter 2022-23",120
+"Los Angeles",209509,1391,5,"Winter 2022-23",120
+"Madera",2629,3,5,"Winter 2022-23",120
+"Marin",3774,2,5,"Winter 2022-23",120
+"Mariposa",319,2,5,"Winter 2022-23",120
+"Mendocino",1062,0,5,"Winter 2022-23",120
+"Merced",4596,33,5,"Winter 2022-23",120
+"Modoc",115,0,5,"Winter 2022-23",120
+"Mono",149,1,5,"Winter 2022-23",120
+"Monterey",6185,28,5,"Winter 2022-23",120
+"Napa",2069,4,5,"Winter 2022-23",120
+"Nevada",1458,1,5,"Winter 2022-23",120
+"Orange",52000,400,5,"Winter 2022-23",120
+"Placer",5359,20,5,"Winter 2022-23",120
+"Plumas",142,1,5,"Winter 2022-23",120
+"Riverside",41442,178,5,"Winter 2022-23",120
+"Sacramento",24410,201,5,"Winter 2022-23",120
+"San Benito",1507,8,5,"Winter 2022-23",120
+"San Bernardino",39048,19,5,"Winter 2022-23",120
+"San Diego",61651,244,5,"Winter 2022-23",120
+"San Francisco",16596,102,5,"Winter 2022-23",120
+"San Joaquin",13043,81,5,"Winter 2022-23",120
+"San Luis Obispo",3747,36,5,"Winter 2022-23",120
+"San Mateo",13621,71,5,"Winter 2022-23",120
+"Santa Barbara",6583,32,5,"Winter 2022-23",120
+"Santa Clara",41127,171,5,"Winter 2022-23",120
+"Santa Cruz",4832,8,5,"Winter 2022-23",120
+"Shasta",1971,7,5,"Winter 2022-23",120
+"Sierra",4,0,5,"Winter 2022-23",120
+"Siskiyou",247,1,5,"Winter 2022-23",120
+"Solano",8586,15,5,"Winter 2022-23",120
+"Sonoma",6272,0,5,"Winter 2022-23",120
+"Stanislaus",7678,58,5,"Winter 2022-23",120
+"Sutter",1375,5,5,"Winter 2022-23",120
+"Tehama",1060,12,5,"Winter 2022-23",120
+"Trinity",152,4,5,"Winter 2022-23",120
+"Tulare",9577,26,5,"Winter 2022-23",120
+"Tuolumne",1285,15,5,"Winter 2022-23",120
+"Ventura",13198,88,5,"Winter 2022-23",120
+"Yolo",2771,93,5,"Winter 2022-23",120
+"Yuba",1135,1,5,"Winter 2022-23",120

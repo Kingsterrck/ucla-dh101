@@ -43,40 +43,63 @@
   <main style="flex:1">
 
     <!-- ARTICLE HEADER -->
-    <article class="shell-narrow page-hero">
+    <article class="shell-wide page-hero">
       <div style="font:500 11px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.2em;color:var(--accent);margin-bottom:26px">Narrative &amp; Findings</div>
-      <h1 class="page-title" style="text-wrap:balance">The Uneven Map: How Geography Shaped California's Pandemic</h1>
-      <p style="font:400 21px/1.5 'Spectral',serif;color:#5a5348;margin:0 0 32px;text-wrap:pretty">A working draft. Replace this standfirst and the body text below with your own writing — the structure, figures, and captions are ready for your ~2,500-word narrative.</p>
+      <h1 class="page-title" style="text-wrap:balance">Understanding COVID-19 Beyond Case Counts</h1>
+      <p style="font:400 21px/1.5 'Spectral',serif;color:#5a5348;margin:0 0 32px;text-wrap:pretty">How the severity and geographic distribution of COVID-19 changed across California — and why cases alone cannot explain the crisis.</p>
       <div style="display:flex;flex-wrap:wrap;gap:12px 20px;padding:18px 0;border-top:1px solid rgba(29,27,23,0.12);border-bottom:1px solid rgba(29,27,23,0.12);font:400 12px/1.5 'IBM Plex Mono',monospace;color:#8a8378">
-        <span>BY [TEAM NAME]</span>
-        <span style="color:rgba(29,27,23,0.2)">|</span>
         <span>DH 101 · SUMMER 2026</span>
         <span style="color:rgba(29,27,23,0.2)">|</span>
-        <span>~12 MIN READ</span>
+        <span>JOHNS HOPKINS CSSE DATA</span>
       </div>
     </article>
 
-    <!-- INTRO -->
-    <article class="shell-narrow" style="padding-top:44px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
-      <p style="margin:0 0 28px;text-wrap:pretty"><span class="drop-cap">W</span>hen the first shelter-in-place orders arrived in March 2020, California was often described as a single unit — one state, one curve, one response. But the pandemic was never experienced uniformly. This is placeholder text; replace it with your introduction, which should establish the humanities question your project answers and preview the argument that follows.</p>
-      <p style="margin:0 0 28px;text-wrap:pretty">The county became the pandemic's fundamental administrative and epidemiological unit, and the fifty-eight counties of California differ enormously in density, wealth, industry, and distance from the coastal metropolitan cores. Use this paragraph to introduce your data and the comparison it makes possible. [placeholder]</p>
+    <!-- INTRODUCTION -->
+    <article class="shell-wide prose-block" style="padding-top:44px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
+      <p><span class="drop-cap">O</span>n January 16, 2022, California reported 207,110 confirmed COVID-19 cases in a single day, the highest daily case total among the five major pandemic waves identified in our dataset. Yet this wave did not produce the greatest number of deaths. The first major wave, which lasted from November 2020 through February 2021, reached a much lower peak of 57,467 daily cases but resulted in 34,543 total deaths. By comparison, the third wave, which included the record-setting January 2022 peak, produced nearly 3.9 million confirmed cases but 10,980 deaths. This contrast shows that the relationship between reported infections and deaths changed significantly over the course of the pandemic.</p>
+      <p>To investigate these changing patterns, our project uses the COVID-19 Data Repository created by the Center for Systems Science and Engineering at Johns Hopkins University. The repository supported the Johns Hopkins COVID-19 Dashboard and includes confirmed cases and deaths organized by date and geographic location. Johns Hopkins combined information from international health organizations, national and local governments, public health departments, and public tracking projects rather than collecting all of the data through one unified system. This structure makes comparisons across time and place possible, but it also means that the data depends on differences in testing, reporting practices, transparency, and institutional capacity.</p>
+      <p>This project examines how the severity and geographic distribution of COVID-19 changed across California over time. Through visualizations of pandemic waves, county case totals, monthly trends, and geographic patterns, we argue that the effects of COVID-19 cannot be understood through case counts alone. The changing relationship between cases and deaths, as well as the uneven outcomes among counties, suggests that pandemic severity was shaped by time, place, healthcare access, reporting systems, and broader social conditions. At the same time, the dataset represents the pandemic mainly through countable categories such as cases, deaths, dates, and locations. These categories reveal important patterns, but they cannot fully represent the lived experiences of the people and communities behind the numbers.</p>
     </article>
 
-    <!-- SECTION 1 -->
-    <article class="shell-narrow" style="padding-top:20px">
-      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:44px 0 8px">01 — A Pandemic in Stages</h2>
-      <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0 0 28px;text-wrap:pretty">We divide the study window into four stages, each with a distinct geography of risk. The timeline below is our own construction, synthesizing case peaks, policy milestones, and the arrival of each variant. Hover over an entry to read more. [Replace event text with your own annotations.]</p>
+    <!-- EXISTING RESEARCH -->
+    <article class="shell-wide prose-block" style="padding-top:20px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
+      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:44px 0 20px">Existing Research on Unequal COVID-19 Outcomes</h2>
+      <p>Researchers have consistently found that the severity of COVID-19 cannot be explained by public health restrictions alone. Although governments adopted policies such as lockdowns, masking requirements, travel restrictions, and social distancing rules, similar policies often produced different outcomes across places. Existing research suggests that the effectiveness of these measures depended on wider cultural, political, institutional, and social conditions.</p>
+      <p>In “Culture and Political Regimes: How Have They Influenced the Effectiveness of COVID-19 Response Policy?,” Peizhen Wu and Zhen Sun examine emergency response policies implemented across countries on five continents. They conclude that these policies generally reduced the effects of COVID-19, but their success varied significantly. Their findings suggest that government action must be understood in relation to political systems, governance, and cultural conditions. Adopting the same policy in two places does not guarantee the same result because institutions differ in their ability to enforce measures and populations differ in their ability or willingness to follow them.</p>
+      <p>Research discussed by the Harvard T.H. Chan School of Public Health similarly examines why countries experienced very different death rates despite using comparable policies. It found that lower mortality was often associated with places where governments and residents more readily adopted and followed measures intended to reduce transmission. This suggests that written policy alone does not determine outcomes. Public trust, communication, institutional cooperation, and compliance also shape whether a public health response succeeds.</p>
+      <p>Donya Brown, Martina Dattilo, and James Rockey expand this discussion by examining international differences in excess mortality, which measures deaths above the number normally expected rather than relying only on deaths officially classified as caused by COVID-19. They identify the strength of the rule of law as an important factor associated with limiting mortality and also consider environmental and geographic conditions. Their work reinforces the idea that pandemic outcomes emerged from several interacting forces rather than from a single policy or characteristic.</p>
+      <p>Together, these studies provide a framework for analyzing California. Counties across the state were subject to many of the same statewide policies, yet they did not experience identical case totals, death totals, or pandemic waves. Our project therefore examines variation within one state rather than only differences between countries. We argue that statewide policy provides only part of the explanation. Local conditions, healthcare access, population vulnerability, institutional capacity, reporting practices, and public responses may also have shaped why some counties were affected more severely than others. Because our dataset does not directly measure many of these factors, however, our visualizations can reveal patterns and inequalities without proving their exact causes.</p>
     </article>
 
-    <!-- TIMELINE -->
-    <figure class="shell-wide" style="margin-top:8px">
+    <!-- WAVES SECTION -->
+    <article class="shell-wide prose-block" style="padding-top:20px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
+      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:44px 0 20px">Changing Relationships Between Cases and Deaths Across Pandemic Waves</h2>
+      <p>The first visualization compares confirmed COVID-19 cases and deaths over time in California. The charts present totals across the five major waves from the beginning of the pandemic through early 2023, allowing the waves to be compared by timing, size, and severity. Viewing these measures together is important because the number of infections alone does not fully indicate the human impact of a wave.</p>
+    </article>
+
+    <figure class="shell-wide viz-figure">
+      <div class="viz-frame">
+        <img src="./visualizations/final_1.png" alt="Bar chart of total confirmed COVID-19 cases by wave in California. Wave 3 has the most cases at about 3.9 million, followed by Wave 1 at about 2.7 million.">
+      </div>
+      <figcaption class="viz-caption">Fig. 1 &mdash; Total confirmed COVID-19 cases by wave. Source: Johns Hopkins CSSE COVID-19 Data Repository.</figcaption>
+    </figure>
+
+    <figure class="shell-wide viz-figure" style="margin-top:28px">
+      <div class="viz-frame">
+        <img src="./visualizations/final_2.png" alt="Bar chart of total COVID-19 deaths by wave in California. Wave 1 has by far the most deaths at 34,543, while later waves show substantially lower mortality.">
+      </div>
+      <figcaption class="viz-caption">Fig. 2 &mdash; Total COVID-19 deaths by wave. Source: Johns Hopkins CSSE COVID-19 Data Repository.</figcaption>
+    </figure>
+
+    <!-- WAVE TIMELINE -->
+    <figure class="shell-wide" style="margin-top:28px">
       <div class="tl-panel">
         <div class="chart-head" style="margin-bottom:26px">
-          <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.14em;color:#8a8378">FIG. 1 — PROJECT TIMELINE</span>
+          <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.14em;color:#8a8378">FIG. 3 — FIVE MAJOR WAVES</span>
           <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.14em;color:#8a8378">2020 — 2023</span>
         </div>
         <div style="display:flex;flex-direction:column;gap:2px">
-          <sc-for list="{{ timeline }}" as="ev" hint-placeholder-count="4">
+          <sc-for list="{{ timeline }}" as="ev" hint-placeholder-count="5">
             <div class="tl-row" style-hover="background:#fff">
               <div class="tl-date">{{ ev.date }}</div>
               <div class="tl-rail">
@@ -91,164 +114,88 @@
           </sc-for>
         </div>
       </div>
-      <figcaption style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;margin-top:14px;text-align:center">Fig. 1 &mdash; Timeline of California's pandemic stages. Source: [your citation]. Illustration by the authors.</figcaption>
+      <figcaption class="viz-caption">Fig. 3 &mdash; Timeline of California’s five major pandemic waves, drawn from the project dataset.</figcaption>
     </figure>
 
-    <!-- SECTION 2 + LINE CHART -->
-    <article class="shell-narrow" style="padding-top:20px">
-      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:52px 0 8px">02 — The Shape of the Curve</h2>
-      <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0 0 28px;text-wrap:pretty">Statewide, reported cases moved through several distinct waves. But the aggregate curve hides how differently each wave landed across the state. Use this section to walk the reader through the temporal pattern before turning to its geography. [placeholder]</p>
+    <article class="shell-wide prose-block" style="padding-top:36px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
+      <p>Wave 1 lasted from November 1, 2020, through February 28, 2021. During this period, California recorded approximately 2.69 million confirmed cases and 34,543 deaths. Daily cases peaked at 57,467 on December 31, 2020, while daily deaths peaked at 1,163 on February 24, 2021. The difference between these dates shows that mortality did not immediately rise and fall with infections. Deaths continued to increase after cases had peaked, reflecting the delay between infection, severe illness, and death.</p>
+      <p>Wave 3, which lasted from December 1, 2021, through February 28, 2022, followed a different pattern. It produced nearly 3.9 million confirmed cases, the highest total of the five waves, and reached a record peak of 207,110 cases on January 16, 2022. Despite this enormous increase, the wave resulted in 10,980 deaths, less than one-third of the total recorded during Wave 1. Its highest daily death count was 406, also substantially below the first wave’s peak.</p>
+      <p>This contrast is one of the project’s most important findings. Wave 3 had about 1.45 times as many total cases as Wave 1, but Wave 1 had more than three times as many deaths. Cases and deaths therefore did not rise in a constant proportion throughout the pandemic. The severity of a wave cannot be measured only by how many people tested positive.</p>
+      <p>The later waves continued the broader pattern of lower mortality relative to reported infections. Wave 4 produced nearly two million cases but 6,004 deaths, while Wave 5 resulted in 724,338 cases and 3,933 deaths. Average daily deaths fell from approximately 287.9 during Wave 1 to 39.2 during Wave 4 and 32.8 during Wave 5. However, later waves were not harmless. They still produced hospitalizations, long-term illness, missed work, educational disruption, and emotional distress that are not captured by death totals.</p>
+      <p>The changing relationship between cases and deaths may reflect vaccination, prior immunity, improved treatment, changes in circulating variants, or differences in which populations became infected. The visualization itself cannot determine which factors caused the decline in mortality. The dataset records dates, cases, and deaths, but it does not consistently include vaccination status, treatment, age, occupation, disability, race, income, or access to healthcare. The chart therefore reveals a changing pattern without fully explaining the medical and social processes behind it.</p>
+      <p>This limitation is central to the project’s humanistic interpretation. The lines in the visualization make the pandemic appear as a sequence of peaks, yet every rise represents illness, disruption, and loss within real communities. Cases reveal the scale of reported transmission, while deaths reveal only one form of harm. Both measures must be interpreted within their historical and social context.</p>
     </article>
 
-    <figure class="shell-wide" style="margin-top:8px">
-      <div class="chart-panel">
-        <div class="chart-head">
-          <span style="font:600 17px/1.3 'Spectral',serif;color:#1d1b17">Reported cases per 100k, statewide</span>
-          <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.12em;color:#8a8378">FIG. 2 — LINE</span>
-        </div>
-        <div style="font:400 13px/1.5 'IBM Plex Mono',monospace;color:#8a8378;margin-bottom:18px">Placeholder data · monthly, Jan 2020 – Dec 2021</div>
-        <div style="position:relative" onMouseLeave="{{ clearLine }}">
-          <svg viewBox="0 0 760 320" style="width:100%;height:auto;display:block;overflow:visible" preserveAspectRatio="xMidYMid meet">
-            <sc-for list="{{ line.grid }}" as="g" hint-placeholder-count="4">
-              <line x1="52" x2="742" y1="{{ g.y }}" y2="{{ g.y }}" stroke="rgba(29,27,23,0.1)" stroke-width="1"></line>
-            </sc-for>
-            <sc-for list="{{ line.grid }}" as="g" hint-placeholder-count="4">
-              <text x="44" y="{{ g.ty }}" text-anchor="end" style="font:400 11px 'IBM Plex Mono',monospace;fill:#a49c90">{{ g.label }}</text>
-            </sc-for>
-            <sc-for list="{{ line.xticks }}" as="t" hint-placeholder-count="5">
-              <text x="{{ t.x }}" y="304" text-anchor="middle" style="font:400 11px 'IBM Plex Mono',monospace;fill:#a49c90">{{ t.label }}</text>
-            </sc-for>
-            <path d="{{ line.area }}" fill="{{ accentSoft }}"></path>
-            <path d="{{ line.path }}" fill="none" stroke="{{ accent }}" stroke-width="2.5" stroke-linejoin="round"></path>
-            <sc-for list="{{ line.pts }}" as="p" hint-placeholder-count="12">
-              <circle cx="{{ p.cx }}" cy="{{ p.cy }}" r="4" fill="#fbfaf6" stroke="{{ accent }}" stroke-width="2" style="cursor:pointer" onMouseEnter="{{ p.onEnter }}" onClick="{{ p.onEnter }}"></circle>
-            </sc-for>
-          </svg>
-          <sc-if value="{{ tipLine }}" hint-placeholder-val="{{ false }}">
-            <div class="chart-tip" style="left:{{ tipLine.leftPct }}%;top:{{ tipLine.topPct }}%">
-              <div style="font:500 10px/1.2 'IBM Plex Mono',monospace;color:color-mix(in srgb, var(--accent) 45%, white);letter-spacing:0.06em">{{ tipLine.label }}</div>
-              <div style="font:600 15px/1.2 'Spectral',serif;margin-top:3px">{{ tipLine.val }} / 100k</div>
-            </div>
-          </sc-if>
-        </div>
-      </div>
-      <figcaption style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;margin-top:14px;text-align:center">Fig. 2 &mdash; Statewide reported case rate over time. Placeholder values &mdash; replace with your dataset. Chart by the authors.</figcaption>
-    </figure>
-
-    <!-- SECTION 3 + BAR CHART -->
-    <article class="shell-narrow" style="padding-top:20px">
-      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:52px 0 8px">03 — Where the Burden Fell</h2>
-      <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0 0 28px;text-wrap:pretty">Ranking counties by cumulative case rate reveals a striking pattern: the agricultural interior, not the dense coastal cities, carried the heaviest burden. Interpret that inversion here — what does it say about essential work, housing, and access to care? [placeholder]</p>
+    <!-- GEOGRAPHY SECTION -->
+    <article class="shell-wide prose-block" style="padding-top:20px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
+      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:44px 0 20px">Geographic Concentration of Confirmed Cases Across California Counties</h2>
+      <p>After comparing the major waves, the next set of visualizations shifts from time to geography. The county-level bar chart shows the ten California counties with the highest cumulative numbers of confirmed cases through March 9, 2023. Los Angeles County recorded by far the largest total, with 3,710,586 confirmed cases. San Diego County ranked second with 1,067,659 cases, followed by Orange County with 788,663, Riverside County with 776,620, and San Bernardino County with 745,179. The remaining counties shown were Santa Clara, Sacramento, Alameda, Fresno, and Kern.</p>
     </article>
 
-    <figure class="shell-wide" style="margin-top:8px">
-      <div class="chart-panel">
-        <div class="chart-head">
-          <span style="font:600 17px/1.3 'Spectral',serif;color:#1d1b17">Cumulative case rate by county</span>
-          <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.12em;color:#8a8378">FIG. 3 — BAR</span>
-        </div>
-        <div style="font:400 13px/1.5 'IBM Plex Mono',monospace;color:#8a8378;margin-bottom:18px">Placeholder data · top 12 counties, cases per 1,000</div>
-        <div style="position:relative" onMouseLeave="{{ clearBar }}">
-          <svg viewBox="0 0 760 340" style="width:100%;height:auto;display:block;overflow:visible" preserveAspectRatio="xMidYMid meet">
-            <sc-for list="{{ bar.grid }}" as="g" hint-placeholder-count="4">
-              <line x1="{{ g.xline }}" x2="{{ g.xline }}" y1="14" y2="310" stroke="rgba(29,27,23,0.1)" stroke-width="1"></line>
-            </sc-for>
-            <sc-for list="{{ bar.grid }}" as="g" hint-placeholder-count="4">
-              <text x="{{ g.xline }}" y="328" text-anchor="middle" style="font:400 11px 'IBM Plex Mono',monospace;fill:#a49c90">{{ g.label }}</text>
-            </sc-for>
-            <sc-for list="{{ bar.bars }}" as="b" hint-placeholder-count="12">
-              <rect x="{{ b.x }}" y="{{ b.y }}" width="{{ b.w }}" height="{{ b.h }}" rx="3" fill="{{ b.fill }}" style="cursor:pointer" onMouseEnter="{{ b.onEnter }}" onClick="{{ b.onEnter }}"></rect>
-            </sc-for>
-            <sc-for list="{{ bar.bars }}" as="b" hint-placeholder-count="12">
-              <text x="122" y="{{ b.labelY }}" text-anchor="end" style="font:400 11px 'IBM Plex Mono',monospace;fill:#6a6459">{{ b.name }}</text>
-            </sc-for>
-          </svg>
-          <sc-if value="{{ tipBar }}" hint-placeholder-val="{{ false }}">
-            <div class="chart-tip" style="left:{{ tipBar.leftPct }}%;top:{{ tipBar.topPct }}%">
-              <div style="font:500 10px/1.2 'IBM Plex Mono',monospace;color:color-mix(in srgb, var(--accent) 45%, white);letter-spacing:0.06em">{{ tipBar.label }}</div>
-              <div style="font:600 15px/1.2 'Spectral',serif;margin-top:3px">{{ tipBar.val }} / 1k</div>
-            </div>
-          </sc-if>
-        </div>
+    <figure class="shell-wide viz-figure">
+      <div class="viz-frame">
+        <img src="./visualizations/final_3.png" alt="Horizontal bar chart of California counties with the most confirmed COVID-19 cases. Los Angeles County leads with about 3.7 million cases, followed by San Diego with about 1.1 million.">
       </div>
-      <figcaption style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;margin-top:14px;text-align:center">Fig. 3 &mdash; Cumulative case rate, twelve highest counties. Placeholder values. Chart by the authors.</figcaption>
+      <figcaption class="viz-caption">Fig. 4 &mdash; California counties with the most confirmed COVID-19 cases through March 9, 2023. Source: Johns Hopkins CSSE.</figcaption>
     </figure>
 
-    <!-- SECTION 4 + MAP PLACEHOLDER -->
-    <article class="shell-narrow" style="padding-top:20px">
-      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:52px 0 8px">04 — Reading the Map</h2>
-      <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0 0 28px;text-wrap:pretty">A choropleth of case rates makes the interior–coast divide legible at a glance. The interactive map below is where your ArcGIS embed will live. Guide the reader through what it shows and how to read the shading. [placeholder]</p>
+    <article class="shell-wide prose-block" style="padding-top:36px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
+      <p>Los Angeles County’s total is the most visible feature of the chart. It recorded more than three times as many cases as San Diego County and nearly five times as many as Orange County. However, this does not mean that an individual living in Los Angeles County faced the greatest risk of infection. The visualization presents raw totals rather than rates adjusted for population. Because Los Angeles is the most populous county in California, its population contributed substantially to its large total. The chart measures where the greatest number of reported infections accumulated, not the proportion of residents who became infected.</p>
+      <p>Even with this limitation, the visualization shows that much of California’s reported case burden was concentrated in highly populated urban and metropolitan counties. Los Angeles, San Diego, Orange, Riverside, and San Bernardino are all located in Southern California and contain major population centers. Alameda and Santa Clara represent the Bay Area, while Fresno, Sacramento, and Kern reflect large population centers in the Central Valley and state capital region. Population size, urban density, employment patterns, transportation networks, and regional mobility may all have influenced where cases were recorded, although the chart cannot independently prove these causes.</p>
+      <p>At the same time, the lighter appearance of rural and less populated counties on a raw-count map should not be interpreted as evidence that they experienced only minor effects. A county with fewer residents will usually produce a smaller raw total even if a large share of its population becomes infected. Rate-based maps using cases and deaths per 100,000 residents therefore offer a different geographic pattern — one that makes intensity more comparable across counties of different sizes.</p>
     </article>
 
-    <figure class="shell-wide" style="margin-top:8px">
-      <div style="position:relative;border:1px solid rgba(29,27,23,0.12);border-radius:16px;overflow:hidden;background:repeating-linear-gradient(135deg,#efece5,#efece5 12px,#f3f0ea 12px,#f3f0ea 24px);aspect-ratio:16/10;display:flex;align-items:center;justify-content:center">
-        <div style="text-align:center;padding:32px">
-          <div style="font:500 11px/1.6 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.16em;color:var(--accent);margin-bottom:14px">Embed slot</div>
-          <div style="font:600 26px/1.2 'Spectral',serif;color:#3a352d;margin-bottom:12px">ArcGIS map goes here</div>
-          <div style="font:400 14px/1.6 'IBM Plex Mono',monospace;color:#8a8378;max-width:44ch;margin:0 auto">Paste your ArcGIS Web Map or StoryMap<br>&lt;iframe&gt; in place of this block.</div>
-        </div>
-        <span style="position:absolute;top:16px;left:16px;font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.12em;color:#8a8378">FIG. 4 — MAP</span>
+    <figure class="shell-wide viz-figure">
+      <div class="viz-frame">
+        <img src="./visualizations/confirmed_100k.png" alt="Five choropleth maps of California showing confirmed COVID-19 cases per 100,000 residents by county across Waves 1 through 5, with Wave 3 appearing most intense statewide.">
       </div>
-      <figcaption style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;margin-top:14px;text-align:center">Fig. 4 &mdash; County-level choropleth of COVID-19 case rates (interactive). Built in ArcGIS by the authors. Source: [your citation].</figcaption>
+      <figcaption class="viz-caption">Fig. 5 &mdash; Confirmed COVID-19 cases per 100,000 residents by California county across five pandemic waves. Source: Johns Hopkins CSSE; map by the authors.</figcaption>
     </figure>
 
-    <!-- SECTION 5 + SCATTER -->
-    <article class="shell-narrow" style="padding-top:20px">
-      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:52px 0 8px">05 — Density Is Not Destiny</h2>
-      <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0 0 28px;text-wrap:pretty">If density alone drove the pandemic, we would expect the densest counties to suffer most. Plotting population density against case rate complicates that intuition. Use this section to make your central analytical claim. [placeholder]</p>
+    <figure class="shell-wide viz-figure" style="margin-top:28px">
+      <div class="viz-frame">
+        <img src="./visualizations/death_100k.png" alt="Five choropleth maps of California showing COVID-19 deaths per 100,000 residents by county across Waves 1 through 5, with heavier rates concentrated differently than the case maps.">
+      </div>
+      <figcaption class="viz-caption">Fig. 6 &mdash; COVID-19 deaths per 100,000 residents by California county across five pandemic waves. Source: Johns Hopkins CSSE; map by the authors.</figcaption>
+    </figure>
+
+    <article class="shell-wide prose-block" style="padding-top:36px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
+      <p>The monthly line chart adds a temporal dimension by tracking new cases in Alameda, Fresno, Los Angeles, Sacramento, and San Diego counties. All five counties experienced repeated increases and declines, but the size of their peaks differed. Los Angeles consistently recorded the highest monthly totals, including a dramatic peak near the beginning of 2022 that exceeded 950,000 new cases in one month. San Diego also experienced a large increase during this period, reaching approximately 280,000 monthly cases, while Alameda, Fresno, and Sacramento had lower but still visible peaks.</p>
     </article>
 
-    <figure class="shell-wide" style="margin-top:8px">
-      <div class="chart-panel">
-        <div class="chart-head">
-          <span style="font:600 17px/1.3 'Spectral',serif;color:#1d1b17">Population density vs. case rate</span>
-          <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.12em;color:#8a8378">FIG. 5 — SCATTER</span>
-        </div>
-        <div style="font:400 13px/1.5 'IBM Plex Mono',monospace;color:#8a8378;margin-bottom:18px">Placeholder data · one point per county (log density axis)</div>
-        <div style="position:relative" onMouseLeave="{{ clearScatter }}">
-          <svg viewBox="0 0 760 340" style="width:100%;height:auto;display:block;overflow:visible" preserveAspectRatio="xMidYMid meet">
-            <sc-for list="{{ scatter.grid }}" as="g" hint-placeholder-count="4">
-              <line x1="56" x2="742" y1="{{ g.y }}" y2="{{ g.y }}" stroke="rgba(29,27,23,0.1)" stroke-width="1"></line>
-            </sc-for>
-            <sc-for list="{{ scatter.grid }}" as="g" hint-placeholder-count="4">
-              <text x="48" y="{{ g.ty }}" text-anchor="end" style="font:400 11px 'IBM Plex Mono',monospace;fill:#a49c90">{{ g.label }}</text>
-            </sc-for>
-            <sc-for list="{{ scatter.xticks }}" as="t" hint-placeholder-count="4">
-              <text x="{{ t.x }}" y="324" text-anchor="middle" style="font:400 11px 'IBM Plex Mono',monospace;fill:#a49c90">{{ t.label }}</text>
-            </sc-for>
-            <sc-if value="{{ showTrendline }}" hint-placeholder-val="{{ true }}">
-              <path d="{{ scatter.trend }}" fill="none" stroke="{{ secondary }}" stroke-width="2" stroke-dasharray="5 5"></path>
-            </sc-if>
-            <sc-for list="{{ scatter.pts }}" as="p" hint-placeholder-count="18">
-              <circle cx="{{ p.cx }}" cy="{{ p.cy }}" r="6" fill="{{ scatterFill }}" stroke="{{ accentStrong }}" stroke-width="1.5" style="cursor:pointer" onMouseEnter="{{ p.onEnter }}" onClick="{{ p.onEnter }}"></circle>
-            </sc-for>
-          </svg>
-          <div style="font:400 11px/1 'IBM Plex Mono',monospace;color:#a49c90;text-align:center;margin-top:2px">population per sq. mile (log scale) →</div>
-          <sc-if value="{{ tipScatter }}" hint-placeholder-val="{{ false }}">
-            <div class="chart-tip" style="left:{{ tipScatter.leftPct }}%;top:{{ tipScatter.topPct }}%">
-              <div style="font:500 10px/1.2 'IBM Plex Mono',monospace;color:color-mix(in srgb, var(--accent) 45%, white);letter-spacing:0.06em">{{ tipScatter.label }}</div>
-              <div style="font:600 14px/1.3 'Spectral',serif;margin-top:3px">{{ tipScatter.val }}</div>
-            </div>
-          </sc-if>
-        </div>
+    <figure class="shell-wide viz-figure">
+      <div class="viz-frame">
+        <img src="./visualizations/final_4.png" alt="Line chart of monthly new COVID-19 cases in Alameda, Fresno, Los Angeles, Sacramento, and San Diego counties from 2020 to 2023. Los Angeles shows the largest peaks, especially in early 2022.">
       </div>
-      <figcaption style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;margin-top:14px;text-align:center">Fig. 5 &mdash; Density plotted against cumulative case rate. Placeholder values. Chart by the authors.</figcaption>
+      <figcaption class="viz-caption">Fig. 7 &mdash; Monthly new COVID-19 cases in selected California counties. Source: Johns Hopkins CSSE.</figcaption>
     </figure>
+
+    <article class="shell-wide prose-block" style="padding-top:36px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
+      <p>Despite these differences in scale, the selected counties generally experienced their major increases at similar times. The winter 2020-2021 wave, the later 2021 increase, and the especially large early 2022 surge appear across several lines. This shared timing suggests that California counties were not experiencing entirely separate epidemics. Broader developments affected multiple regions at once, while population size and local conditions influenced the magnitude of each county’s reported totals.</p>
+      <p>Together, the bar chart, rate maps, and monthly trend chart show that geography shaped how the pandemic appeared in the data. Highly populated counties accumulated the largest reported totals, while the per-100,000 maps reveal where intensity was high relative to population. Yet these visualizations also demonstrate the limits of the available measures. They identify important spatial patterns but do not account for demographic differences, healthcare access, occupation, housing conditions, or reporting capacity.</p>
+    </article>
+
+    <!-- LIMITATIONS -->
+    <article class="shell-wide prose-block" style="padding-top:20px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
+      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:44px 0 20px">Limitations of the Data and What the Numbers Conceal</h2>
+      <p>The apparent precision of the visualizations should not be mistaken for a complete or neutral account of the pandemic. Johns Hopkins combined data from international health organizations, national governments, local health departments, and public tracking projects. Because these institutions used different testing systems, reporting practices, definitions, and levels of capacity, the figures are not perfectly comparable across every place or period. The dataset is shaped by the institutions that produced and reported the information.</p>
+      <p>Confirmed case totals do not represent the true number of infections. A person generally had to receive a test and have the result reported to appear in the dataset. Testing was not equally available throughout the pandemic, and many infections were never formally diagnosed. Access could vary by location, income, transportation, employment, healthcare access, and the availability of testing sites. Later, the use of at-home tests may have created additional gaps because many positive results were not reported. A lower case total may therefore reflect fewer infections, but it may also reflect less testing or incomplete reporting.</p>
+      <p>Death totals have similar limitations. Jurisdictions may differ in how they define a COVID-19 death, particularly when a patient has other medical conditions. Some deaths may be recorded as directly caused by COVID-19, while others may list it as a contributing factor. Deaths outside hospitals or without testing may never have been officially connected to the virus. The totals in our visualizations should therefore be understood as reported deaths rather than a complete measurement of every life lost because of the pandemic.</p>
+      <p>The dataset also omits many of the social characteristics needed to explain unequal outcomes. It does not consistently include race, class, occupation, disability, immigration status, housing conditions, insurance coverage, or access to healthcare. These omissions matter because exposure and vulnerability were not evenly distributed. People who could work remotely faced different risks from healthcare workers, agricultural laborers, service employees, caregivers, and others whose jobs required in-person contact. People living in crowded or multigenerational households also faced different conditions from those able to isolate safely.</p>
+      <p>Most importantly, the repository cannot represent the lived experience of the pandemic. It records cases, deaths, dates, and locations, but it cannot capture grief, fear, loneliness, unemployment, interrupted education, hospital overcrowding, or the experiences of families unable to visit sick relatives. It also excludes the voices of patients, nurses, physicians, caregivers, and communities affected by illness and public health restrictions.</p>
+      <p>This reflects the ontology of the dataset, or the categories through which it organizes reality. By defining the pandemic mainly through cases, deaths, dates, and locations, the repository encourages viewers to understand COVID-19 as a statistical and geographic event. These categories are useful, but they can create an impression of objectivity even though each number depends on testing, classification, reporting practices, and political decisions. The data is not false, but it is incomplete and produced through systems of institutional power.</p>
+      <p>For this reason, our visualizations should be read as evidence of reported patterns rather than as a complete record of the pandemic. The Johns Hopkins repository helps identify when waves occurred, where the largest totals were recorded, and how the relationship between cases and deaths changed. A fuller understanding would require demographic data, population-adjusted rates, local public health reports, medical accounts, oral histories, and testimony from affected communities.</p>
+    </article>
 
     <!-- CONCLUSION -->
-    <article class="shell-narrow" style="padding-top:20px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
-      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:52px 0 20px">Conclusion</h2>
-      <p style="margin:0 0 28px;text-wrap:pretty">Taken together, these views suggest that the geography of COVID-19 in California was less about density than about the social organization of space — who had to leave home, who could not distance, and who lived far from care. Close with your synthesis and its stakes for the humanities. [placeholder]</p>
-      <p style="margin:0 0 28px;text-wrap:pretty">See the <a href="data-critique.html">data critique</a> for the limits of these claims, and the <a href="bibliography.html">bibliography</a> for our sources.</p>
+    <article class="shell-wide prose-block" style="padding-top:20px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
+      <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);margin:44px 0 20px">Conclusion: Understanding COVID-19 Beyond Case Counts</h2>
+      <p>California’s experience of COVID-19 cannot be understood through a single number or visualization. Across the five major waves, the relationship between confirmed cases and deaths changed significantly. Wave 3 produced the most cases and the largest daily peak, while Wave 1 caused far more deaths. This contrast demonstrates that cases and deaths measured different dimensions of the crisis and that neither one alone fully represented pandemic severity.</p>
+      <p>The county visualizations also showed that the pandemic was geographically uneven. Los Angeles recorded the greatest cumulative total, while several other highly populated counties in Southern California, the Bay Area, and the Central Valley also appeared among the highest. The per-100,000 maps show a different intensity pattern across waves, and the monthly trend chart shows that many counties experienced major surges at similar points — suggesting both statewide synchronization and local variation. Raw totals emphasize populous counties; rate maps make smaller counties more comparable.</p>
+      <p>These findings support the broader argument that policy alone cannot fully explain pandemic outcomes. Healthcare access, working conditions, housing, institutional capacity, public trust, population vulnerability, and reporting systems may all have shaped the differences visible in the data. Yet the dataset cannot measure all of these factors or capture the human experiences behind the figures.</p>
+      <p>The Johns Hopkins repository remains a powerful source for identifying large-scale patterns, but it is only one form of evidence. Understanding COVID-19 as a human crisis requires reading numerical data alongside social analysis, local reports, medical accounts, oral histories, and community experiences. Looking beyond case counts allows us to ask not only where and when the pandemic intensified, but also whose experiences became visible in the data, whose remained absent, and how institutions shaped what was recorded as evidence.</p>
+      <p>See the <a href="data-critique.html">data critique</a> for the limits of these claims, and the <a href="bibliography.html">bibliography</a> for our sources.</p>
     </article>
-
-    <!-- ILLUSTRATION PLACEHOLDER -->
-    <figure class="shell-wide" style="margin-top:36px">
-      <div style="border:1px solid rgba(29,27,23,0.12);border-radius:16px;overflow:hidden;background:repeating-linear-gradient(135deg,#efece5,#efece5 12px,#f3f0ea 12px,#f3f0ea 24px);aspect-ratio:21/9;display:flex;align-items:center;justify-content:center">
-        <div style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;text-align:center">[ photograph or illustration ]<br>drop image here &middot; remember caption + credit</div>
-      </div>
-      <figcaption style="font:400 13px/1.6 'IBM Plex Mono',monospace;color:#8a8378;margin-top:14px;text-align:center">A well-captioned, credited image belongs here. Source: [credit].</figcaption>
-    </figure>
 
     <div style="height:88px"></div>
 
@@ -270,24 +217,9 @@
     &quot;tsType&quot;: &quot;string&quot;,
     &quot;section&quot;: &quot;Theme&quot;,
     &quot;options&quot;: [&quot;oklch(0.45 0.12 260)&quot;, &quot;oklch(0.52 0.13 42)&quot;, &quot;oklch(0.48 0.10 175)&quot;, &quot;oklch(0.45 0.14 20)&quot;]
-  },
-  &quot;secondary&quot;: {
-    &quot;editor&quot;: &quot;color&quot;,
-    &quot;default&quot;: &quot;oklch(0.55 0.08 220)&quot;,
-    &quot;tsType&quot;: &quot;string&quot;,
-    &quot;section&quot;: &quot;Theme&quot;,
-    &quot;options&quot;: [&quot;oklch(0.55 0.08 220)&quot;, &quot;oklch(0.55 0.10 175)&quot;, &quot;oklch(0.60 0.10 60)&quot;]
-  },
-  &quot;showTrendline&quot;: {
-    &quot;editor&quot;: &quot;boolean&quot;,
-    &quot;default&quot;: true,
-    &quot;tsType&quot;: &quot;boolean&quot;,
-    &quot;section&quot;: &quot;Charts&quot;
   }
 }">
 class Component extends DCLogic {
-  state = { tipLine: null, tipBar: null, tipScatter: null };
-
   componentDidMount(){ this.applyTheme(); }
   componentDidUpdate(){ this.applyTheme(); }
   applyTheme(){
@@ -297,88 +229,15 @@ class Component extends DCLogic {
     root.style.setProperty('--accent-strong', `color-mix(in srgb, ${a} 78%, black)`);
   }
 
-  buildLine() {
-    const vals = [2,5,12,18,15,22,40,55,48,60,140,210,160,90,55,70,120,95,60,80,260,180,70,40];
-    const labels = ["Jan '20","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan '21","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec '21"];
-    const W=760,H=320,padL=52,padR=18,padB=42;
-    const plotW=W-padL-padR, plotH=H-18-padB, bottom=H-padB, vmax=300;
-    const x=i=>padL+(i/(vals.length-1))*plotW;
-    const y=v=>bottom-(v/vmax)*plotH;
-    const pts=vals.map((v,i)=>{
-      const cx=x(i), cy=y(v);
-      return {cx,cy,label:labels[i],val:v,
-        onEnter:()=>this.setState({tipLine:{leftPct:cx/W*100,topPct:cy/H*100,label:labels[i],val:v}})};
-    });
-    const path=pts.map((p,i)=>(i?'L':'M')+p.cx.toFixed(1)+' '+p.cy.toFixed(1)).join(' ');
-    const area=path+` L${x(vals.length-1).toFixed(1)} ${bottom} L${padL} ${bottom} Z`;
-    const grid=[0,100,200,300].map(v=>({y:y(v),ty:y(v)+4,label:String(v)}));
-    const xticks=[0,6,12,18,23].map(i=>({x:x(i),label:labels[i]}));
-    return {pts,path,area,grid,xticks};
-  }
-
-  buildBar(accent) {
-    const data=[["Imperial",312],["Kings",289],["Lassen",271],["Tulare",258],["Kern",244],["San Bernardino",231],["Fresno",219],["Merced",208],["Stanislaus",197],["Los Angeles",188],["Riverside",176],["San Francisco",121]];
-    const W=760,H=340,padT=14,padB=30,left=128,right=742,vmax=350;
-    const plotW=right-left, plotH=H-padT-padB;
-    const n=data.length, band=plotH/n, bh=band*0.6;
-    const xv=v=>left+(v/vmax)*plotW;
-    const bars=data.map(([name,v],i)=>{
-      const yTop=padT+i*band+(band-bh)/2;
-      const w=(v/vmax)*plotW;
-      const cx=left+w, cyc=yTop+bh/2;
-      const fill=i<3?accent:`color-mix(in srgb, ${accent} 58%, transparent)`;
-      return {name,x:left,y:yTop,w,h:bh,fill,labelY:cyc+4,val:v,
-        onEnter:()=>this.setState({tipBar:{leftPct:cx/W*100,topPct:cyc/H*100,label:name,val:v}})};
-    });
-    const grid=[0,100,200,300].map(v=>({xline:xv(v),label:String(v)}));
-    return {bars,grid};
-  }
-
-  buildScatter() {
-    const data=[["Alpine",1.6,180],["Sierra",3,150],["Modoc",2.4,205],["Lassen",8,271],["Imperial",44,312],["Kings",148,289],["Tulare",67,258],["Kern",108,244],["Fresno",164,219],["Merced",148,208],["Stanislaus",422,197],["San Bernardino",108,231],["Sacramento",1700,171],["Riverside",325,176],["Orange",4000,158],["Alameda",2200,146],["Los Angeles",2500,188],["San Diego",780,150],["Santa Clara",1500,138],["San Francisco",18800,121]];
-    const W=760,H=340,padT=16,padB=44,left=56,right=742,vmax=350;
-    const plotW=right-left, plotH=H-padT-padB, bottom=H-padB;
-    const lmin=Math.log10(1.5), lmax=Math.log10(20000);
-    const x=d=>left+((Math.log10(d)-lmin)/(lmax-lmin))*plotW;
-    const y=v=>bottom-(v/vmax)*plotH;
-    const pts=data.map(([name,d,v])=>{
-      const cx=x(d), cy=y(v);
-      return {cx,cy,label:name,val:v+' /1k · '+d+' /sq.mi',
-        onEnter:()=>this.setState({tipScatter:{leftPct:cx/W*100,topPct:cy/H*100,label:name,val:v+' /1k · '+d.toLocaleString()+' /sq.mi'}})};
-    });
-    const grid=[0,100,200,300].map(v=>({y:y(v),ty:y(v)+4,label:String(v)}));
-    const xticks=[[10,'10'],[100,'100'],[1000,'1k'],[10000,'10k']].map(([d,l])=>({x:x(d),label:l}));
-    const trend=`M${left} ${y(240)} L${right} ${y(150)}`;
-    return {pts,grid,xticks,trend};
-  }
-
   renderVals() {
-    const accent = this.props.accent || 'oklch(0.45 0.12 260)';
-    const secondary = this.props.secondary || 'oklch(0.55 0.08 220)';
-    const showTrendline = this.props.showTrendline ?? true;
     return {
-      accent,
-      secondary,
-      showTrendline,
-      accentSoft: `color-mix(in srgb, ${accent} 12%, transparent)`,
-      accentStrong: `color-mix(in srgb, ${accent} 78%, black)`,
-      scatterFill: `color-mix(in srgb, ${accent} 55%, transparent)`,
       timeline: [
-        {date:"MAR 2020", title:"First orders & the initial shock", body:"Statewide shelter-in-place. Early cases cluster in coastal metros with international travel links."},
-        {date:"WINTER 2020–21", title:"The first great surge", body:"The largest pre-vaccine wave. Case rates climb fastest in the agricultural interior and among essential workers."},
-        {date:"SUMMER 2021", title:"Delta and the vaccine divide", body:"A more transmissible variant meets uneven vaccine uptake, widening geographic gaps in outcomes."},
-        {date:"WINTER 2021–22", title:"Omicron's steep peak", body:"Record case counts, but a partial decoupling of cases from severe outcomes where vaccination was high."},
-        {date:"2022–23", title:"Endemic transition", body:"Emergency measures wind down. Attention shifts to long COVID and the pandemic's uneven legacy."}
-      ],
-      line: this.buildLine(),
-      bar: this.buildBar(accent),
-      scatter: this.buildScatter(),
-      tipLine: this.state.tipLine,
-      tipBar: this.state.tipBar,
-      tipScatter: this.state.tipScatter,
-      clearLine: ()=>this.setState({tipLine:null}),
-      clearBar: ()=>this.setState({tipBar:null}),
-      clearScatter: ()=>this.setState({tipScatter:null})
+        {date:"WAVE 1", title:"Nov 2020 – Feb 2021", body:"~2.69 million cases and 34,543 deaths. Daily cases peaked at 57,467 on Dec 31, 2020; daily deaths peaked at 1,163 on Feb 24, 2021."},
+        {date:"WAVE 2", title:"Spring – summer 2021", body:"1,069,107 cases and 9,778 deaths — a smaller surge between the winter peaks."},
+        {date:"WAVE 3", title:"Dec 2021 – Feb 2022", body:"Nearly 3.9 million cases, the highest wave total, peaking at 207,110 daily cases on Jan 16, 2022 — but only 10,980 deaths."},
+        {date:"WAVE 4", title:"Later 2022", body:"Nearly two million cases and 6,004 deaths, continuing the pattern of lower mortality relative to infections."},
+        {date:"WAVE 5", title:"Into early 2023", body:"724,338 cases and 3,933 deaths. Average daily deaths fell to about 32.8, though harm beyond mortality remained."}
+      ]
     };
   }
 }

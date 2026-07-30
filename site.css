@@ -252,6 +252,41 @@ body {
   white-space: normal;
 }
 
+.viz-figure {
+  margin: 8px auto 0;
+}
+
+.viz-frame {
+  background: #fbfaf6;
+  border: 1px solid rgba(29, 27, 23, 0.12);
+  border-radius: 16px;
+  padding: 16px 16px 12px;
+  overflow: hidden;
+}
+
+.viz-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.viz-caption {
+  font: 400 13px/1.6 "IBM Plex Mono", monospace;
+  color: #8a8378;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.prose-block p {
+  margin: 0 0 28px;
+  text-wrap: pretty;
+}
+
+.prose-block p:last-child {
+  margin-bottom: 0;
+}
+
 .hero-section {
   padding: 88px var(--pad-x) 60px;
 }
@@ -417,6 +452,11 @@ body {
 
   .chart-panel {
     padding: 20px 14px 14px;
+    border-radius: 12px;
+  }
+
+  .viz-frame {
+    padding: 10px;
     border-radius: 12px;
   }
 
