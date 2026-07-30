@@ -92,29 +92,16 @@
     </figure>
 
     <!-- WAVE TIMELINE -->
-    <figure class="shell-wide" style="margin-top:28px">
-      <div class="tl-panel">
-        <div class="chart-head" style="margin-bottom:26px">
-          <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.14em;color:#8a8378">FIG. 3 — FIVE MAJOR WAVES</span>
-          <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:0.14em;color:#8a8378">2020 — 2023</span>
-        </div>
-        <div style="display:flex;flex-direction:column;gap:2px">
-          <sc-for list="{{ timeline }}" as="ev" hint-placeholder-count="5">
-            <div class="tl-row" style-hover="background:#fff">
-              <div class="tl-date">{{ ev.date }}</div>
-              <div class="tl-rail">
-                <span style="width:11px;height:11px;border-radius:50%;background:var(--accent);flex:none"></span>
-                <span style="width:1px;flex:1;min-height:34px;background:rgba(29,27,23,0.14);margin-top:4px"></span>
-              </div>
-              <div class="tl-body">
-                <div style="font:600 18px/1.35 'Spectral',serif;color:#1d1b17;margin-bottom:4px">{{ ev.title }}</div>
-                <div style="font:400 15px/1.55 'Spectral',serif;color:#6a6459;text-wrap:pretty">{{ ev.body }}</div>
-              </div>
-            </div>
-          </sc-for>
-        </div>
+    <figure class="shell-wide viz-figure" style="margin-top:28px">
+      <div class="viz-frame timeline-frame">
+        <iframe
+          class="timeline-embed"
+          src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=v2%3A2PACX-1vT8PAJ0-vbcDUhMo0j7j7oVhDV4bdFlcWY1SiMRgjYvva-vKIQ_aoksA-7WlJtnouZeNqOdpFXj8Q1t&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;width=100%25&amp;height=650"
+          title="Interactive timeline of California COVID-19 pandemic waves"
+          loading="lazy"
+          allowfullscreen></iframe>
       </div>
-      <figcaption class="viz-caption">Fig. 3 &mdash; Timeline of California’s five major pandemic waves, drawn from the project dataset.</figcaption>
+      <figcaption class="viz-caption">Fig. 3 &mdash; Interactive timeline of California’s pandemic waves. Built with Knight Lab TimelineJS.</figcaption>
     </figure>
 
     <article class="shell-wide prose-block" style="padding-top:36px;font:400 19px/1.72 'Spectral',serif;color:#2a261f">
