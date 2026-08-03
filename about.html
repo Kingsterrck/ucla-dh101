@@ -68,7 +68,7 @@
       <div class="grid-team">
         <sc-for list="{{ team }}" as="m" hint-placeholder-count="4">
           <div style="background:#fbfaf6;border:1px solid rgba(29,27,23,0.12);border-radius:14px;padding:24px">
-            <div style="width:100%;aspect-ratio:1/1;max-width:96px;border-radius:50%;background:repeating-linear-gradient(135deg,#e7e3da,#e7e3da 6px,#efece5 6px,#efece5 12px);margin-bottom:18px"></div>
+<!--            <div style="width:100%;aspect-ratio:1/1;max-width:96px;border-radius:50%;background:repeating-linear-gradient(135deg,#e7e3da,#e7e3da 6px,#efece5 6px,#efece5 12px);margin-bottom:18px"></div>-->
             <div style="font:600 20px/1.2 'Spectral',serif;margin-bottom:4px">{{ m.name }}</div>
             <div style="font:500 11px/1.4 'IBM Plex Mono',monospace;letter-spacing:0.08em;color:oklch(0.45 0.12 260);text-transform:uppercase;margin-bottom:12px">{{ m.role }}</div>
             <p style="font:400 15px/1.6 'Spectral',serif;color:#5a5348;margin:0;text-wrap:pretty">{{ m.bio }}</p>
@@ -77,23 +77,10 @@
       </div>
     </section>
 
-    <!-- RESPONSIBILITIES -->
-    <section class="shell-wide" style="padding-top:24px">
-      <h2 style="font:600 13px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.16em;color:#8a8378;border-bottom:1px solid rgba(29,27,23,0.14);padding-bottom:14px;margin:52px 0 8px">Who did what</h2>
-      <div style="margin-top:16px">
-        <sc-for list="{{ responsibilities }}" as="r" hint-placeholder-count="4">
-          <div class="grid-who">
-            <div style="font:500 13px/1.5 'IBM Plex Mono',monospace;color:#1d1b17">{{ r.who }}</div>
-            <div style="font:400 16px/1.55 'Spectral',serif;color:#5a5348;text-wrap:pretty">{{ r.what }}</div>
-          </div>
-        </sc-for>
-      </div>
-    </section>
-
     <!-- ACKNOWLEDGMENTS -->
     <section class="shell-wide" style="padding-top:24px">
       <h2 style="font:600 15px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:oklch(0.45 0.12 260);margin:52px 0 16px">Acknowledgments</h2>
-      <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0;text-wrap:pretty">We thank our instructor and TAs for their guidance, the maintainers of the public datasets we relied on, and everyone who offered feedback along the way. Replace this with your own acknowledgments, naming the people and institutions who helped. [placeholder]</p>
+      <p style="font:400 19px/1.72 'Spectral',serif;color:#2a261f;margin:0;text-wrap:pretty">We thank Dr. Jordan Galczynski and TA for their guidance, the maintainers of the public datasets we relied on, and everyone who offered feedback along the way.</p>
     </section>
 
     <div style="height:88px"></div>
@@ -102,11 +89,6 @@
   <footer style="border-top:1px solid rgba(29,27,23,0.12);background:#fbfaf6">
     <div class="footer-inner">
       <div style="font:500 10.5px/1.6 'IBM Plex Mono',monospace;color:#8a8378;text-transform:uppercase;letter-spacing:0.1em">County Lines · DH 101 · Summer 2026</div>
-<!--      <div style="display:flex;gap:20px">-->
-<!--        <a href="Home.dc.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;color:#4a453d;text-transform:uppercase;letter-spacing:0.1em">Home</a>-->
-<!--        <a href="Narrative.dc.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;color:#4a453d;text-transform:uppercase;letter-spacing:0.1em">Narrative</a>-->
-<!--        <a href="DataCritique.dc.html" style="font:500 10.5px/1 'IBM Plex Mono',monospace;color:#4a453d;text-transform:uppercase;letter-spacing:0.1em">Data Critique</a>-->
-<!--      </div>-->
     </div>
   </footer>
 
@@ -122,16 +104,11 @@ class Component extends DCLogic {
         {num:"3", title:"Presentation", body:"We present findings as a narrative website with an interactive timeline, five visualizations, and an ArcGIS map. [Placeholder — describe your design and platform choices.]", reasoning:"We chose this format to let readers move between argument and evidence. Justify your presentation choices with reference to relevant readings on DH publishing. [placeholder]"}
       ],
       team: [
-        {name:"[Team Member One]", role:"Role · e.g. Data & analysis", bio:"Short bio placeholder. A sentence or two on background and what drew them to the project."},
-        {name:"[Team Member Two]", role:"Role · e.g. Cartography", bio:"Short bio placeholder."},
-        {name:"[Team Member Three]", role:"Role · e.g. Writing & research", bio:"Short bio placeholder."},
-        {name:"[Team Member Four]", role:"Role · e.g. Design & build", bio:"Short bio placeholder."}
-      ],
-      responsibilities: [
-        {who:"[Member One]", what:"Data acquisition, cleaning, and the statistical analysis behind the charts. [placeholder]"},
-        {who:"[Member Two]", what:"Built the ArcGIS map and the county-level geographic processing. [placeholder]"},
-        {who:"[Member Three]", what:"Lead author of the narrative and the annotated bibliography. [placeholder]"},
-        {who:"[Member Four]", what:"Site design, build, and integration of visualizations. [placeholder]"}
+        {name:"Zilu Yi", role:"Role · Web Developer & Cartographer", bio:"Built website, uploaded contents, created maps with ArcGIS Pro."},
+        {name:"Jerry Li", role:"Role · Editor", bio:"Wrote data critique and annotated bibliography."},
+        {name:"Sara Shahabi", role:"Role · Editor", bio:"Wrote main narrative."},
+        {name:"Leondre Lee", role:"Role · Data visualization Specialist", bio:"Created charts and graphs with Tableau."},
+        {name:"Nathan Tjong", role:"Role · Data Specialist", bio:"Pulled and cleaned data, categorized waves."}
       ]
     };
   }
