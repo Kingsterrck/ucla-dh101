@@ -44,23 +44,23 @@
     <section class="shell-wide page-hero">
       <div style="font:500 11px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.2em;color:oklch(0.45 0.12 260);margin-bottom:26px">About the Project</div>
       <h1 class="page-title">Method &amp; Team</h1>
-      <p style="font:400 21px/1.5 'Spectral',serif;color:#5a5348;margin:0;max-width:56ch;text-wrap:pretty">How we built this project across the three levels of a digital humanities project — sources, processing, and presentation — and who did the work.</p>
+      <p style="font:400 21px/1.5 'Spectral',serif;color:#5a5348;margin:0;max-width:56ch;text-wrap:pretty">How we built this project across the three levels of a digital humanities project and who did the work.</p>
     </section>
 
-    <!-- THREE LEVELS -->
-    <section class="shell-wide" style="padding-top:24px">
-      <h2 style="font:600 13px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.16em;color:#8a8378;border-bottom:1px solid rgba(29,27,23,0.14);padding-bottom:14px;margin:40px 0 0">The three levels</h2>
-      <sc-for list="{{ levels }}" as="lv" hint-placeholder-count="3">
-        <div class="grid-levels">
-          <div style="font:600 40px/0.9 'Spectral',serif;color:oklch(0.45 0.12 260 / 0.4)">{{ lv.num }}</div>
-          <div>
-            <h3 style="font:600 26px/1.2 'Spectral',serif;margin:0 0 14px">{{ lv.title }}</h3>
-            <p style="font:400 17px/1.7 'Spectral',serif;color:#3a352d;margin:0 0 14px;text-wrap:pretty">{{ lv.body }}</p>
-            <p style="font:400 15px/1.65 'Spectral',serif;color:#7a7266;margin:0;text-wrap:pretty">{{ lv.reasoning }}</p>
-          </div>
-        </div>
-      </sc-for>
-    </section>
+<!--    &lt;!&ndash; THREE LEVELS &ndash;&gt;-->
+<!--    <section class="shell-wide" style="padding-top:24px">-->
+<!--      <h2 style="font:600 13px/1 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.16em;color:#8a8378;border-bottom:1px solid rgba(29,27,23,0.14);padding-bottom:14px;margin:40px 0 0">The three levels</h2>-->
+<!--      <sc-for list="{{ levels }}" as="lv" hint-placeholder-count="3">-->
+<!--        <div class="grid-levels">-->
+<!--          <div style="font:600 40px/0.9 'Spectral',serif;color:oklch(0.45 0.12 260 / 0.4)">{{ lv.num }}</div>-->
+<!--          <div>-->
+<!--            <h3 style="font:600 26px/1.2 'Spectral',serif;margin:0 0 14px">{{ lv.title }}</h3>-->
+<!--            <p style="font:400 17px/1.7 'Spectral',serif;color:#3a352d;margin:0 0 14px;text-wrap:pretty">{{ lv.body }}</p>-->
+<!--            <p style="font:400 15px/1.65 'Spectral',serif;color:#7a7266;margin:0;text-wrap:pretty">{{ lv.reasoning }}</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </sc-for>-->
+<!--    </section>-->
 
     <!-- TEAM -->
     <section class="shell-wide" style="padding-top:24px">
@@ -107,8 +107,8 @@ class Component extends DCLogic {
         {name:"Zilu Yi", role:"Role · Web Developer & Cartographer", bio:"Built website, uploaded contents, created maps with ArcGIS Pro."},
         {name:"Jerry Li", role:"Role · Editor", bio:"Wrote data critique and annotated bibliography."},
         {name:"Sara Shahabi", role:"Role · Editor", bio:"Wrote main narrative."},
-        {name:"Leondre Lee", role:"Role · Data visualization Specialist", bio:"Created charts and graphs with Tableau."},
-        {name:"Nathan Tjong", role:"Role · Data Specialist", bio:"Pulled and cleaned data, categorized waves."}
+        {name:"Leondre Lee", role:"Role · Data visualization Specialist", bio:"Created charts and graphs with Tableau; wrote about page."},
+        {name:"Nathan Tjong", role:"Role · Data Specialist", bio:"Pulled and cleaned data, categorized waves; wrote about page."}
       ]
     };
   }
